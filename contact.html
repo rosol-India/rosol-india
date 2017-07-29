@@ -4,34 +4,25 @@ title: Contact us!
 permalink: /contact/
 ---
 <link rel="stylesheet" href="{{ site.baseurl }}/css/constyle.css" />
-<!-- Slider Start -->
-<section id="global-header">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="block">
-          <h1 class="animated fadeInUp" style="font-size:250%;text-align: center;">Drop Us a Note</h1>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+<script type="text/javascript" src="{{ site.baseurl }}/js/contactValidation.js"></script>
+          <h1 class="animated fadeInUp" style="font-weight:200;font-size:250%;text-align:center;"><span style="font-weight:300">D</span>rop <span style="font-weight:300">U</span>s a <span style="font-weight:300">N</span>ote.</h1>
 <div class="fcontainer">
-  <form action="/action_page.php">
+  <form action="/action_page.php" name="details">
 
     <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+    <input type="text" id="fname" name="firstname" onkeyup="validateFName()" placeholder=""><br>
 
     <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+    <input type="text" id="lname" name="lastname" onkeyup="validateLName()" placeholder=""><br>
 
     <label for="lname">Email</label>
-    <input type="email" id="email" name="mail"><br>
+    <input type="email" id="email" name="mail" onkeyup="validateEmail()" placeholder="">
+    <br>
 
     <label for="state">State</label>
     <select id="state" name="state">
     <option value="0">Select State</option>
-							<option value="32"  >Andaman and Nicobar Islands</option>
+              <option value="32"  >Andaman and Nicobar Islands</option>
 <option value="1"  >Andhra Pradesh</option>
 <option value="24"  >Arunachal Pradesh</option>
 <option value="2"  >Assam </option>
@@ -67,36 +58,35 @@ permalink: /contact/
 <option value="20"  >Uttar Pradesh</option>
 <option value="31"  >Uttarakhand</option>
 <option value="21"  >West Bengal</option>
-						</select><br>
+            </select><br>
 
 
-	<label for="interest">Interest:</label>
+  <label for="interest">Interest:</label>
     <select id="interest" name="interest">
-    		<option value="0">Select</option>
-						<option value="1">Products</option>
-						<option value="2">Projects</option>
-						<option value="3">Modules / Solar Panels </option>
-						<option value="4">Jobs / Career</option>
-						<option value="5" >Customer Support / Service Support </option>
-						<option value="6">Media</option>
-						<option value="7">Dealership Opportunities </option>
-						<option value="8">Procurement / Suppliers</option>
-						<option value="10">Plant Operation & Maintenance</option>
-						<option value="11">Find A Dealer</option>
-						<option value="12" >Ethics helpline</option>
-						<option value="13" >Health & Safety helpline</option>
-						<option value="9">Others</option>
+        <option value="0">Select</option>
+            <option value="1">Products</option>
+            <option value="2">Projects</option>
+            <option value="3">Modules / Solar Panels </option>
+            <option value="4">Jobs / Career</option>
+            <option value="5" >Customer Support / Service Support </option>
+            <option value="6">Media</option>
+            <option value="7">Dealership Opportunities </option>
+            <option value="8">Procurement / Suppliers</option>
+            <option value="10">Plant Operation & Maintenance</option>
+            <option value="11">Find A Dealer</option>
+            <option value="12" >Ethics helpline</option>
+            <option value="13" >Health & Safety helpline</option>
+            <option value="9">Others</option>
     </select>
 
     <br>
 <p class="formfield">
-    <label for="subject">Message:</label>
-    <textarea id="subject" rows="6" name="subject" placeholder="Please enter your comments if any?"></textarea></p>
+    <label for="subject" style="font-size:18px">Message:</label>
+    <textarea id="subject" rows="6" name="subject" placeholder="Please enter your comments if any?" onkeyup="place()""></textarea></p>
 
     <br><br>
-
-    <center><input type="submit" value="Submit"></center>
   </form>
+     <center><input type="submit" value="Submit" onclick="entries()"></center>
 </div>
 <hr>
 

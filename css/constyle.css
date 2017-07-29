@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Zilla+Slab');
+@import url('https://fonts.googleapis.com/css?family=Arvo');
 /* Style inputs with type="text", select elements and textareas */
 label { display: inline-block; width: 100px; }
 input[type=text],input[type=email], select, textarea {
@@ -10,26 +10,41 @@ input[type=text],input[type=email], select, textarea {
     box-sizing: border-box;
     margin-top: 10px; 
     margin-bottom: 16px;
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    resize: vertical;
+    outline:none
 }
 input[type=submit] {
-    background-color: #1B1925;
-    color: white;
-    padding: 14px 22px;
-    font-size: 16px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    outline: 0;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: -1.0px;
+    background-color: #fdfafa;
+    color: #0e0e0e;
+    -webkit-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: -30%;
+    border: black 1.5px solid;
 }
 
 input[type=submit]:hover {
-    background-color: #646177;
+    background-color: #5FAD56;
+    color: white;
+    letter-spacing: 2px;
+    border: black 1.5px dashed; 
 }
 
 .fcontainer {
-    width: 100%;
-    font-family: 'Zilla Slab', serif;
-    font-size: 18px;
+        margin-left: 18%;
+    margin-right: 0%;
+    width: 82%;
+    font-family: 'Arvo', serif;
+    font-size: 16px;
     padding: 20px;
 
 }

@@ -3,19 +3,15 @@ layout: page
 title: Blog
 permalink: /blog/
 ---
-<!-- Slider Start -->
-<section id="global-header">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
+
         <div class="block">
-          <h1 class="animated fadeInUp">Get the latest on what we're doing</h1>
-          <p class="animated fadeInUp">Catch up with us, anytime and anywhere</p>
-        </div>
+          <div class="bstyle">
+          <center>
+          <h1 class="animated fadeInUp" style="font-weight:300">Get the latest on what we're doing</h1>
+          <p class="animated fadeInUp" style="font-size:1.8vw">Catch up with us, <span style="color:#5FAD56;font-size:2.2vw">anytime</span> and <span style="color:#5FAD56;font-size:2.2vw">anywhere</span>.</p>
+        </center>
       </div>
-    </div>
-  </div>
-</section>
+        </div>
 {% for post in site.posts %}
 <div class="post-area">
   <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
