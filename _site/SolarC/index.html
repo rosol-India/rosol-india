@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Solar Calculator</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+<!-- CSS -->
+<link rel="stylesheet" href="/css/owl.carousel.css" />
+<link rel="stylesheet" href="/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/css/font-awesome.min.css" />
+<link rel="stylesheet" href="/css/rosol-style.css" />
+<link rel="stylesheet" href="/css/style.css" />
+<link rel="stylesheet" href="/css/ionicons.min.css" />
+<link rel="stylesheet" href="/css/animate.css" />
+<link rel="stylesheet" href="/css/responsive.css" />
+<link rel="stylesheet" href="/css/syntax.css" />
+
+<!-- Js -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/owl.carousel.min.js"></script>
+<script src="/js/plugins.js"></script>
+<script src="/js/min/waypoints.min.js"></script>
+<script src="/js/jquery.counterup.js"></script>
+
+
+<script src="/js/main.js"></script>
+
+
+
+  </head>
+  <body>
+
+
+    <!-- Header Start -->
+<header>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <!-- header Nav Start -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/home" style="font-size:200%">
+              ROSO<span style="color:green">L</span>
+            </a>
+          </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="/home">Home</a></li>
+                <li><a href="/products">Products</a></li>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/service">Services</a></li>
+                <li><a href="/faq">FAQ</a></li>
+                <li><a href="/contact">Contact</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div>
+    </div>
+  </div>
+</header><!-- header close -->
+
+
+
+    <!DOCTYPE html>
+<html>
+
+<head>
+    <title>Solar calculator</title>
+    <link rel="stylesheet" type="text/css" href="/css/calc2.css">
+    <link rel="stylesheet" type="text/css" href="/css/rosol-style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <script type="text/javascript" src="/js/cal_script.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+</head>
+
+<body>
+
+
+    <section id="SECTION_1">
+        <div id="DIV_3">
+            <div id="DIV_5">
+
+                <label id="LABEL_6">
+            <input type="radio" checked="checked" name="consumption" id="INPUT_7" onclick="changePlaceholder()"/> Monthly Bill
+            
+          </label>
+                <label id="LABEL_8">
+            <input type="radio" name="consumption" id="INPUT_9" onclick="changePlaceholderKWH()"/>Sanctioned load
+          </label>
+            </div>
+            <div id="DIV_17">
+                <input type="text" placeholder="Your monthly electricity bill (Rs.)" name="bill_amount" id="INPUT_11" onkeypress="removeErr1()" />
+                <div id="err_msg1">
+
+                </div>
+            </div>
+            <div id="DIV_10">
+
+                
+
+                <select id="INPUT_18" placeholder="Your State" onclick="removeErr2()">
+              <option value="Select State">Select State</option>
+            <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+              <option value="Andhra Pradesh">Andhra Pradesh</option>
+              <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+              <option value="Assam">Assam</option>
+
+              <option value="Bihar">Bihar</option>
+              <option value="Chandigarh">Chandigarh</option>
+              <option value="Chhattisgarh">Chhattisgarh</option>
+              <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+              <option value="Daman and Diu">Daman and Diu</option>
+              <option value="New Delhi">New Delhi</option>
+              <option value="Goa">Goa</option>
+              <option value="Gujrat">Gujrat</option>
+              <option value="Haryana">Haryana</option>
+              <option value="Himachal Pradesh">Himachal Pradesh</option>
+              <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+              <option value="Jharkhand">Jharkhand</option>
+              <option value="Karnataka">Karnataka</option>
+              <option value="Kerala">Kerala</option>
+              <option value="Lakshadweep">Lakshadweep</option>
+              <option value="Madhya Pradesh">Madhya Pradesh</option>
+              <option value="Maharashtra">Maharashtra</option>
+              <option value="Manipur">Manipur</option>
+              <option value="Meghalaya">Meghalaya</option>
+              <option value="Mizoram">Mizoram</option>
+              <option value="Nagaland">Nagaland</option>
+              <option value="Odisha">Odisha</option>
+              <option value="Puducherry">Puducherry</option>
+              <option value="Punjab">Punjab</option>
+              <option value="Rajasthan">Rajasthan</option>
+              <option value="Sikkim">Sikkim</option>
+              <option value="Tamil Nadu">Tamil Nadu</option>
+              <option value="Telangana">Telangana</option>
+              <option value="Tripura">Tripura</option>
+              <option value="Uttar Pradesh">Uttar Pradesh</option>
+              <option value="Uttarakhand">Uttarakhand</option>
+              <option value="West Bengal">West Bengal</option>
+
+
+          </select>
+                <div id="err_msg2">
+
+                </div>
+
+            </div>
+
+
+            <div id="DIV_35">
+                <span id="SPAN_36"><input type="button" value="RESIDENTIAL" id="INPUT_37" onclick="setResident()" /></span> <span id="SPAN_38"><input type="button" value="COMMERCIAL" id="INPUT_39"  onclick="setNotResident()" /></span> <span id="SPAN_40"><input type="button" value="INDUSTRIAL" id="INPUT_41" onclick="setNotResident1()"/></span>
+                <label id="LABEL_42">
+          </label>
+                <div id="err_msg3" style="height:20px;">
+                   
+                </div>
+                <div id="DIV_36">
+                    <input type="submit" value="CALCULATE" id="INPUT_43" onclick="display()" />
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+
+
+    <section id="SECTION_2">
+        <!-- Calc Result starts from here -->
+
+        <div id="DIV_2A">
+            <div id="slider">
+                <div id="DIV_2B">
+                    <span id="heading">How much solar do you want to use?</span>
+                </div>
+                <input type="range" min="20" max="100" value="75" id="range_val" onchange="showValue(this.value); display();" " />
+                <span id="range">75</span>
+                <span id="per">%<span>
+    </div>
+      <div id="DIV_4">
+        <div id="DIV_5A">
+        <h2 id="H2_5">
+          <span id="SPAN_6">Total</span><br id="BR_7" />Area Required
+                </h2>
+            </div>
+
+            <!------------- knob ------------>
+
+            <section id="SECTION_11">
+                <div id="DIV_16">
+                    <input id="INPUT_19" value="0.25" readonly="true" />
+                    <span id="SPAN_20">sq. ft.</span>
+                </div>
+                <input type="hidden" id="INPUT_21" value="1.25" />
+                <input type="hidden" readonly="readonly" id="INPUT_22" value="1.25" />
+
+            </section>
+            <!-- 
+        
+
+        
+        <!---------------- knob ------------------>
+
+        </div>
+        <!----- graph section -->
+        <div id="DIV_38">
+            <div id="DIV_38A">
+
+                <canvas id="mm" width="50%" height="200px"></canvas>
+
+                <script>
+                    graph();
+                </script>
+            </div>
+            <div id="DIV_39">
+                <h2 id="H2_6">
+                    <span id="SPAN_1">You will save &#x20B9</span><span id="SPAN_2"></span>
+                </h2>
+            </div>
+        </div>
+
+        <!--  <div id="DIV_38">
+        <h2 id="H2_39">
+          Your Monthly Bill
+        </h2>
+        
+        <div id="DIV_43">
+          <div id="DIV_44">
+            <ul id="UL_45">
+              <li id="LI_46">
+                 <span id="SPAN_47"><i id="I_48"></i> <span id="SPAN_49">1,000</span></span>
+                <figure id="FIGURE_50">
+                  <img src="data:image/webp;base64,UklGRioEAABXRUJQVlA4TB0EAAAvNQAZEO+gkI0kaAB2ARbk/NleB4Js29gAPoCBnCDbNjaAD2AgFwikMINXm7YBg7fUPwD1D3wBegdW2lhZpbSecnqkCYjof0jbtq0mErVRJCO7qoOd/P/fROuI6A3PEf1Ph5FsRdH78FFAjpd/tB4fXKkNIKL/if8BpbfJVaO3AbeoyaXMkzm5SeHK6DO7sx/Rp0zmxdkqnLvC1vfa+mGjOIX2mNn+XLbvdftZtjc2Z42WYdf7Wn/ZYXCcePp4f/2sdXmvbzwzkEPh6ffa+ubpAOF5/rG8vtf6/V6fPA0QM3u/1vrOngLBzsey1l/2QbBjWcXvG/sg2LGs4o2dEIXnz/e39+Vv/XtjH0Rk59vf+sOuDKHZu6z1nT0GMrLz8bf+siPhoDI7l7V+8DQrNAL7Hn/rL8+iQnOa2bWs9YPNMqFh8DIzOx6fywcbs1PYLUT2EFMovBInCFsgWA0O2iV2JT/hYFghuDm0Ru1qTEdX9YiW5QbBPY+4ZUjcISjCiMtDoICIlMkoXFAmUWYIw0ZyGl3aJjYMZGI7R2f1NqKOerMuZrYzDirzxqxwVJG3JYWmKbylWDQMduUKLxensBuI7CBM5KVoFF52hmA1kMqEzK45GAU5skJws2hp42KqmXtONTqrFRqGGwT3NOCWIXKHoAgDLg+u8AWRKOOES1OgnCEMjyXaEV2DCYVHB5nZTt5NukLozflU2Mw4qMwby4ijSrwtD2i6wnsczlQovB4GtLzCS9nMS9kqvJSHmCMOg42FXSXaAYdQIFgDWoN2PtVCUVINbhrQCqwQ3KLCTSpwg+BeDG4xM3eIwtdscNlkCohIWYLGhdEXygih2SjRanRoGwsbE6TnyZy8q5PeJ1d9mnkScAy8MSk0HG/zaI+Jt2SNhlXYdeLlbPCyEHOAGPzMC7MfIXyBYA04DDbM7JijHXEwrBDcgkJLT676JIKrk0YzcIPg3QKWaOMN0/mUgM9aaGAO2pY8Pri90VYY5aTlzeEHF1LjZIPNfClHPIPaeObCl4JBChdWwSRxWRYMgksbl7SAS2AOxb01fm4bbldhehM8mjs/9BzwSCUMz+pgfSydP/QSFVYqTxhePWDidI+5DDnu6jDRxguGT3FY4DIfmEpzBHzUTNNhEoeWFD9rahwyjOuclRgULz7EwqmD3fhe7hTL3fm6Ydy4cMPMNy5qilFwx84FPQougTk8btkbP7YouN0B06vA+FT5c0seRipheFbB4EIsjS+txOAwSOEJw6sp5k6veAc9Pea+8oLhkx0WSOID02iyx0eXO58OkznU3eNnv1cOB4zrnPQjqsOL6H40zjzsxtdazhSfcla+RowbFybMtHNRD5hL5JIseJXY+bEnh99C7vy554Avfs+FryXvHitEzy2aXU/B/wAA" id="IMG_51" alt='' />
+                </figure> <span id="SPAN_52">Current<br id="BR_53" /> Bill</span>
+              </li>
+              <li id="LI_54">
+                 <span id="SPAN_55"><i id="I_56"></i> <span id="SPAN_57">237</span></span>
+                <figure id="FIGURE_58">
+                  <img src="https://www.itsmysun.com/wp-content/themes/mysun/images/BILLWITH-SOLARc-top.png" id="IMG_59" alt='' /><img src="https://www.itsmysun.com/wp-content/themes/mysun/images/BILLWITH-SOLARc-mid.png" id="IMG_60" alt='' /><img src="https://www.itsmysun.com/wp-content/themes/mysun/images/BILLWITH-SOLARc-bottom.png" id="IMG_61" alt='' />
+                </figure> <span id="SPAN_62">Bill With Solar</span>
+              </li>
+            </ul>
+          </div>
+          <div id="DIV_63">
+              <h3 id="H3_65">
+                Start Saving<br id="BR_66" />from <span id="SPAN_67">Day 1</span>
+              </h3>
+          </div>
+          <p id="P_68">
+            *Depending upon your daytime consumption
+          </p>
+        </div>
+      </div> -->
+        <!-- solar score ------------>
+
+        <div id="DIV_69">
+            <div id="DIV_5A">
+                <h2 id="H2_5">
+                    <span id="SPAN_6">Selected</span><br id="BR_7" /> Solar System Size
+                </h2>
+            </div>
+
+            <!------------- knob ------------>
+
+            <section id="SECTION_11">
+                <div id="DIV_16">
+                    <input id="INPUT_29" value="0.25" readonly="true" />
+                    <span id="SPAN_20">kW</span>
+                </div>
+                <input type="hidden" id="INPUT_21" value="1.25" />
+                <input type="hidden" readonly="readonly" id="INPUT_22" value="1.25" />
+
+            </section>
+            <!-- 
+        
+
+        
+        <!---------------- knob ------------------>
+
+        </div>
+
+
+
+        <!-- for mobile only start -->
+
+        <!-------------- saving part ------------------>
+
+
+        <!-- for mobile only -->
+
+        <!---------------- environment ----------->
+
+
+        <div id="DIV_115">
+            <h2 id="H2_116">
+                Your Contribution<br id="BR_117" /> to the Environment
+            </h2>
+            <div id="DIV_121">
+                <div id="DIV_122">
+                    <img src="data:image/webp;base64,UklGRgoCAABXRUJQVlA4TP4BAAAvMUAMEAfEoG0bQQZ8bP4Rtx0HgmybSu8QpybItinQ7g9yIYRp2zY5O2kLU9u2DYNMPbzjq/f+92+CExAADJIHuDEgEEDM4UAIMH2A4CACUAABxE8dSR2iAIMBAEFWiGQORRCAQQFayGABigAMwAKAwlogBMnqmYAESbJN21rPtm3btm39Z9t2z/3ts87e/ScQ0X8HbiMpkqPlY+hHBPynxK+wutHZvnyxy1bqwiuAsy6i6h+Y7UWwZEJpJ6R2Ym1lINvZiQZ35iNNOIqDVQcO8nuGt+1gxFbKFhyqCbeS+wWnHqei/YW/wbXbDF/9cO8lzEfQAwGmfcSDUoQumaNclXDK0agJuuUsqNAMkpZnUaS/krwXKzrB6jbSa5QGrV59PDNeOZ80i8rd5vkrif1madJ+a/mPnOUqVP09r3KUiGqJsjSLrpWwt1kgPoLVYfH5uTh3fYe5dh8WE6kU3r6Sq89EUpEn+rJvM8Pqf+GpUu67pQpJsqwqs5qTyZOXv7iZGATOz1G4+y4iT8oyajuLJS5RRIp28deFRM3ix7OMiTVPGZsAfv494iCxZePp43y+WJzJsPmOjoJEJDxWRAiGjOU0UDwxDBh6hanHUE/VYcinajOkUfUakqgmDdlUh4YGppgvwxBTsflTW2fqMb0GEx3DrJC5Gh/7azLLATs=" alt="Tree" id="IMG_123" />
+                </div>
+                <div id="DIV_124">
+                    <p id="P_125">
+                        <data id="DATA_126">
+            
+            </data> trees<br id="127" /> <span id="SPAN_128">added</span>
+                    </p>
+                </div>
+            </div>
+            <div id="DIV_129">
+                <div id="DIV_130">
+                    <img src="data:image/webp;base64,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" alt="Tree" id="IMG_131" />
+                </div>
+                <div id="DIV_132">
+                    <p id="P_133">
+                        <data id="DATA_134">
+              0
+            </data> <span id="SPAN_135">car</span><br id="BR_136" /> <span id="SPAN_137">off the road</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- for moble only start-->
+
+        <!-- solar score ------------>
+        <!-- for mobile only -->
+
+        <!-------------- saving part ------------------>
+        <div id="DIV_150">
+
+            <div id="DIV_150A">
+
+                <canvas id="mm1" width="50%" height="200px"></canvas>
+
+                <script>
+                    graph1();
+                </script>
+            </div>
+             <div id="DIV_140">
+                <h2 id="H2_7">
+                    <span id="SPAN_1">System Cost: &#x20B9</span><span id="SPAN_PAISA"></span>
+                </h2>
+            </div>
+
+        </div>
+
+        <!--      <div id="DIV_150">
+      <div id="DIV_154">
+        <div id="DIV_155">
+        </div>
+        <ul id="UL_156">
+          <li id="LI_157">
+            <div id="DIV_158">
+              <div id="DIV_159">
+                <span id="SPAN_160">93,750</span>
+              </div>
+            </div>
+            <p id="P_161">
+              System <span id="SPAN_162">Cost (<i id="I_163"></i>)</span>
+            </p>
+          </li>
+          <li id="LI_164">
+            <div id="DIV_165">
+              <div id="DIV_166">
+                <span id="SPAN_167">-1.3 <span id="SPAN_168">Lacs</span></span>
+              </div>
+            </div>
+            <p id="P_169">
+              Lifetime <span id="SPAN_170">Savings (<i id="I_171"></i>)</span>
+            </p>
+          </li>
+          <li id="LI_172">
+            <div id="DIV_173">
+              <div id="DIV_174">
+                <span id="SPAN_175">0.0%</span><span id="SPAN_176">p.a.</span>
+              </div>
+            </div>
+            <p id="P_177">
+              Return On <span id="SPAN_178">Investment</span>
+            </p>
+          </li>
+        </ul>
+        <div id="DIV_179">
+        </div>
+        <div id="DIV_180">
+
+          <p id="P_181">
+            <a href="https://www.itsmysun.com/advanced-solar-calculator/?address=New Delhi, Delhi, India&amp;bill_amount=1000&amp;country=IN&amp;district=&amp;lat=28.6139391&amp;lng=77.20902120000005&amp;state=DL&amp;type=R&amp;sublocality=false&amp;fullstatename=Delhi&amp;showFinance=1" id="A_182">System cost can be fully funded by bank loans/EMI options</a>
+          </p>
+        </div>
+      </div>
+    </div> -->
+        <a id="A_183" href="https://www.itsmysun.com/advanced-solar-calculator/?address=New Delhi, Delhi, India&amp;bill_amount=1000&amp;country=IN&amp;district=&amp;lat=28.6139391&amp;lng=77.20902120000005&amp;state=DL&amp;type=R&amp;sublocality=false&amp;fullstatename=Delhi"></a>
+        <!--<a id="advancecallink"  href="javascript:;" data-toggle="modal" data-target="#advance_calculator_pop">  -->
+
+        <div id="DIV_184">
+            <a id="A_185" href="https://www.itsmysun.com/advanced-solar-calculator/?address=New Delhi, Delhi, India&amp;bill_amount=1000&amp;country=IN&amp;district=&amp;lat=28.6139391&amp;lng=77.20902120000005&amp;state=DL&amp;type=R&amp;sublocality=false&amp;fullstatename=Delhi"></a>
+            <div id="DIV_186">
+                <!--<span id="SPAN_12"><center>Tariff for next<br/> 25 years per unit</center></span>-->
+                  <div id="DIV_5A">
+                     <h2 id="H2_5">
+                        <span id="SPAN_6">Tariff for</span><br id="BR_7" />next 25 years per unit
+                     </h2>
+                  </div>
+              <div id="ekansh">
+                  <center><span id="shahjad">&#x20B9</span><span id="paisa"></span></center>
+              </div>
+ 
+
+
+                <br id="BR_187" />
+            </div>
+            <div id="DIV_189">
+                <a id="A_190" href="https://www.itsmysun.com/advanced-solar-calculator/?address=New Delhi, Delhi, India&amp;bill_amount=1000&amp;country=IN&amp;district=&amp;lat=28.6139391&amp;lng=77.20902120000005&amp;state=DL&amp;type=R&amp;sublocality=false&amp;fullstatename=Delhi"></a><a href="https://www.itsmysun.com/advanced-solar-calculator/?address=New Delhi, Delhi, India&amp;bill_amount=1000&amp;country=IN&amp;district=&amp;lat=28.6139391&amp;lng=77.20902120000005&amp;state=DL&amp;type=R&amp;sublocality=false&amp;fullstatename=Delhi" id="A_191"></a>
+                
+                    START SAVING NOW
+                
+            </div>
+        </div>
+        <!-- this anvore is made inder the $ancohr variable -->
+        <div id="DIV_193">
+        </div>
+        </div>
+        <!-- /wraper ends here -->
+
+        <!-- /Calc result ends here -->
+
+    </section>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+    <!-- footer Start -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="footer-manu">
+          <ul>
+            <li><a href="">About Us</a></li>
+            <li><a href="/contact">Contact us</a></li>
+            <li><a href="/faq">FAQ</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/SolarC">Solar Calculator</a></li>
+          </ul>
+        </div>
+        <a href="/home"><p>ROSOL Energy PVT LTD</p></a><l>&copy 2016<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script></l>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    </body>
+</html>
