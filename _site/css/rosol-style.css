@@ -795,7 +795,7 @@ footer .footer-manu ul li a:hover {
 }
 #sub{
   width: 44%;
-  border-radius: 6px;
+  border-radius: 2px;
   background-color: white;
   color: black;
   font-weight: 500;
@@ -803,5 +803,6 @@ footer .footer-manu ul li a:hover {
 }
 #sub:hover{
   color: white;
-  background-color: #005ce6;
+  background-color: #5FAD56;
+  font-weight: bolder;
 }
