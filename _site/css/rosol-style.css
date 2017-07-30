@@ -795,8 +795,8 @@ footer .footer-manu ul li a:hover {
 }
 #sub{
   width: 44%;
-  border-radius: 2px;
-  background-color: white;
+  border: 1px solid black;
+  background-color: #eff7ea;
   color: black;
   font-weight: 500;
   letter-spacing: 1px;
