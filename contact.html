@@ -7,7 +7,8 @@ permalink: /contact/
 <script type="text/javascript" src="{{ site.baseurl }}/js/contactValidation.js"></script>
           <h1 class="animated fadeInUp" style="font-weight:200;font-size:250%;text-align:center;"><span style="font-weight:300">D</span>rop <span style="font-weight:300">U</span>s a <span style="font-weight:300">N</span>ote.</h1>
 <div class="fcontainer">
-  <form action="/action_page.php" name="details">
+  <form action="https://formspree.io/grohan952@gmail.com"
+      method="POST" name="details">
 
     <label for="fname">First Name</label>
     <input type="text" id="fname" name="firstname" onkeyup="validateFName()" placeholder=""><br>
@@ -85,8 +86,9 @@ permalink: /contact/
     <textarea id="subject" rows="6" name="subject" placeholder="Please enter your comments if any?" onkeyup="place()""></textarea></p>
 
     <br><br>
+         <center><input type="submit" value="Send" onclick="entries()"></center>
   </form>
-     <center><input type="submit" value="Submit" onclick="entries()"></center>
+
 </div>
 <hr>
 <a id="reachere"></a>
