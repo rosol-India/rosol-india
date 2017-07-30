@@ -10,7 +10,7 @@ body{
     text-size-adjust: 100%;
     width: 100%;
     background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
-    border: 2px solid rgb(71, 71, 71);
+    border: 1px solid rgb(71, 71, 71);
     font: normal normal normal normal 15px / 21.4286px dinregular, Arial, sans-serif;
     outline: rgb(93, 93, 93) none 0px;
     padding: 1.5% 0% 1.5%;
@@ -348,7 +348,7 @@ body{
     border-right: 20px solid rgb(71, 71, 71);
     border-bottom: 20px solid rgb(71, 71, 71);
     border-left: 20px solid rgb(71, 71, 71);*/
-    border: 2px solid rgb(71, 71, 71);
+    border: 1px solid rgb(71, 71, 71);
     font: normal normal normal normal 15px / 21.4286px dinregular, Arial, sans-serif;
     outline: rgb(93, 93, 93) none 0px;
     padding: 0% 0% 3% 0%;

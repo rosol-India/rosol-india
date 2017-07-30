@@ -103,8 +103,7 @@ background-color: #5FAD56;
 }
 .hred {
   font: normal normal 300 36px/2 "Roboto", serif;
-  text-align: center;
-  font-weight: bold;
+  font-weight: 300;
 }
 .pred {
   width: 100%;
