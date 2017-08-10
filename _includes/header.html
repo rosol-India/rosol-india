@@ -1,38 +1,49 @@
-<!-- Header Start -->
-<header>
-<div class="container">
-  <div class="row">
-    <div class="col-md-12">
-      <!-- header Nav Start -->
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="{{ site.baseurl }}/home" style="font-size:200%">
-              ROSO<span style="color:green">L</span>
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+ <style> 
+
+</style>
+<nav class="navbar custom-nav">
+ <div class="container-fluid">
+  <div class="navbar-header">
+   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="{{ site.baseurl }}/home" style="font-size:200%">ROSO<span style="color:green">L</span>
             </a>
-          </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="{{ site.baseurl }}/home">Home</a></li>
-                <li><a href="{{ site.baseurl }}/products">Products</a></li>
-                <li><a href="{{ site.baseurl }}/SolarC">Solar Calculator</a></li>
-                <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
-                <li><a href="{{ site.baseurl }}/service">Services</a></li>
-                <li><a href="{{ site.baseurl }}/faq">FAQ</a></li>
-                <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
-              </ul>
-            </div><!-- /.navbar-collapse -->
-          </div><!-- /.container-fluid -->
-        </nav>
-      </div>
-    </div>
   </div>
-</header><!-- header close -->
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+   <ul class="nav navbar-nav navbar-right">
+    <li><a href="{{ site.baseurl }}">About Us</a></li>
+    <li><a href="{{ site.baseurl }}/products">Products</a></li>
+        <li class="dropdown">
+     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services<span class="caret"></span></a>
+     <ul class="dropdown-menu">
+      <li><a href="{{ site.baseurl }}/service">Solar Consultation</a></li>
+      <li><a href="{{ site.baseurl }}/service">Solar Project</a></li>
+      <li><a href="{{ site.baseurl }}/service">Solar Engineering</a></li>
+      <li><a href="{{ site.baseurl }}/service">Solar Installation and Comissioning</a></li>
+      <li><a href="{{ site.baseurl }}/service">Solar BOS Supply</a></li>
+      <li><a href="{{ site.baseurl }}/service">Solar Training</a></li>
+     </ul>
+    </li>
+     <li class="dropdown">
+     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Knowledge Centre<span class="caret"></span></a>
+     <ul class="dropdown-menu">
+      <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
+      <li><a href="{{ site.baseurl }}/faq">FAQ</a></li>
+      <li><a href="{{ site.baseurl }}/service">Downloads</a></li>
+     </ul>
+    </li>
+    <li><a href="{{ site.baseurl }}/SolarC">Solar Calculator</a></li>
+    <li><a href="{{ site.baseurl }}/contact">Contact Us</a></li>
+   </ul>
+   
+  </div>
+ </div>
+</nav>
+
+

@@ -1,4 +1,5 @@
-var counter = 0;
+    var hclick=0;
+    var counter = 0;
 var interval;
 var t = 0;
     /*function screen_check() {
@@ -18,32 +19,30 @@ var t = 0;
         }
 
     }*/
+    
 window.onload = function() {
-
-changep();
+  setTimeout(function() { changep(); }, 4000);
 }
 function clicka()
 {        
     clearInterval(interval);
+       document.getElementById('p_content').innerHTML = '<span id="projh">Our Projects</span>';
        document.getElementById('c-butna').style.backgroundColor='black';
        document.getElementById('c-butnb').style.backgroundColor='white';
        document.getElementById('c-butnc').style.backgroundColor='white';
        document.getElementById('c-butnd').style.backgroundColor='white';
        document.getElementById('c-butne').style.backgroundColor='white';
-       document.getElementById('p_image').innerHTML = '<img class="imgp" src="/img/sl1.png" alt="ROSOL Solar Collector">';
-       document.getElementById('p_content').innerHTML = '<h1 class="phead"><center> Solar Collector</center></h1><ul class="listed_a"><li class="a01">It is a panel designed to utilise solar energy for generating electricity.</li><li class="a02">These are <b>weather-proof</b> and are able to withstand high level of ultra-violet radiations and moisture</li><li class="a03">Our company provides <b>high quality</b> panels with <b>25 years performance warranty</b></li><li class="a04">It can also run directly on electricity and grid, </li><li class="a05">Electricity <b>savings</b> upto <b>70%</b>. </li><!--<li class="a06">It is ideal for industries, hotels, supermarkets, colleges, schools, factories, restaurants, commercial places. </li>--></ul>'
       
 }
 function clickb()
 {        
     clearInterval(interval);
+    document.getElementById('p_content').innerHTML = '<span id="wgs" style="padding-bottom:20px;">Why go Solar?</span><table id="tab" style="width: 80%;" border="0" cellpadding="15" ><tbody><tr><td><center><img style="width:80px;"src="/img/icons/pe.png"><br><span id="wogs">Save the <span style="color:#5FAD56">Environment</span></span></center></td><td><center><img style="width:80px;"src="/img/icons/sm.png"><br><span id="wogs">Earn a great Return!</span></center></td><td><center><img style="width:80px;"src="/img/icons/shp.png"><br><span id="wogs">Guaranteed Performance</span></center></td></tr><tr><td><center><img style="width:80px;"src="/img/icons/emai.png"><br><span id="wogs">Easy Maintenance</span></center></td><td><center><img style="width:80px;"src="/img/icons/lb.png"><br><span id="wogs">Reduce your bills!</span></center></td><td><center><img style="width:80px;"src="/img/icons/sus.png"><br><span id="wogs">Commit to Sustainability</span></center></td></tr><tr><td colspan="3"><center><img style="width:90px;"src="/img/icons/solc.png"><br><span id="wogs">Use our Calculator to find your savings on switching to Solar</span></center></td></tr></tbody></table>';
        document.getElementById('c-butna').style.backgroundColor='white';
        document.getElementById('c-butnb').style.backgroundColor='black';
        document.getElementById('c-butnc').style.backgroundColor='white';
        document.getElementById('c-butnd').style.backgroundColor='white';
        document.getElementById('c-butne').style.backgroundColor='white';
-       document.getElementById('p_image').innerHTML = '<img class="imgp" src="/img/sl2.png" alt="ROSOL Solar AC">';
-       document.getElementById('p_content').innerHTML = '<h1 class="phead"><center>Solar Air Conditioner</center></h1><ul class="listed_a"><li class="a01">Solar AC use the combination of <b>solar power and battery</b>,</li><li class="a02"><b>Plug-n-play</b> solar connection, </li><li class="a03">48 V solar battery power with <b>anti corrosion</b> technology,</li><li class="a04">It can also run directly on electricity and grid, </li><li class="a05">Electricity <b>savings</b> upto <b>70%</b>. </li><!--<li class="a06">Solar powered Air-Conditioning a is ideal for industries, hotels, supermarkets, colleges, schools, factories, restaurants, commercial places. </li>--></ul>';
 }
 function clickc()
 {        
@@ -53,8 +52,6 @@ function clickc()
        document.getElementById('c-butnc').style.backgroundColor='black';
        document.getElementById('c-butnd').style.backgroundColor='white';
        document.getElementById('c-butne').style.backgroundColor='white';
-       document.getElementById('p_image').innerHTML = '<img class="imgp" src="/img/sl3.png" alt="ROSOL Solar Home Lighting System">';
-       document.getElementById('p_content').innerHTML = '<h1 class="phead"><center>Solar Home Lighting System</center></h1><ul class="listed_a"><li class="a01">A efficient energy solution includes a solar panel with <b>inbuilt battery</b> pack, <b>two solar lights</b> ,<b>two light switch.</b></li><li class="a02">It is <b>easy to carry</b> because of its <b>compact design</b> and <b>light weighted metal body.</b></li><li class="a03">LED Bulb <b>Overcharge Protection</b></li><li class="a04">Output Battery Back up Ranges : Upto 12-24 hrs</li><li class="a05">Solar Battery : 3 Years Warranty </li></ul>';
 }
 function clickd()
 {        
@@ -64,8 +61,6 @@ function clickd()
        document.getElementById('c-butnc').style.backgroundColor='white';
        document.getElementById('c-butnd').style.backgroundColor='black';
        document.getElementById('c-butne').style.backgroundColor='white';
-       document.getElementById('p_image').innerHTML = '<img class="imgp" src="/img/sl4.png" alt="ROSOL Solar Table Fan">';
-       document.getElementById('p_content').innerHTML = '<h1 class="phead"><center>Solar Table Fan</center></h1><ul class="listed_a"><li class="a01">It requires very <b>Low Voltage</b> input which leads to <b>reduced electricity bills</b>.</li><li class="a02">Solar Table Fan can Run on both Electricity and Solar Energy.</li><li class="a03">It makes <b>No noise</b> and produces <b>No heat</b> during operation</li><li class="a04">Once fully charged, it can provide Backup up for 7-8 hours.</b></li><li class="a05">Warranty: 2 years.</li></ul>';
 }
 function clicke()
 {        
@@ -75,15 +70,12 @@ function clicke()
        document.getElementById('c-butnc').style.backgroundColor='white';
        document.getElementById('c-butnd').style.backgroundColor='white';
        document.getElementById('c-butne').style.backgroundColor='black';
-       document.getElementById('p_image').innerHTML = '<img class="imgp" src="/img/sl5.png" alt="ROSOL Solar Lantern">';
-       document.getElementById('p_content').innerHTML = '<h1 class="phead"><center>Solar Lantern</center></h1><ul class="listed_a"><li class="a01">Built in electrical charger with <b>overcharge protection</b> for safety and <b>long life</b>.</li><li class="a02">It also provides <b>Mobile Charging facility</b>.</li><li class="a03">Unique two-way operation with <b>LED indicators</b> for comfort.</li><li class="a04">Once fully charged, it can provide <b>Backup Upto 8-10 hours</b></li><li class="a05">Solar Module: 15 Yrs Warranty</li></ul>';
 }
 function changep()
 {
        if(counter==0){
+       document.getElementById('p_content').innerHTML = '<span id="projh">Our Projects</span>';
         document.getElementById('c-butna').style.backgroundColor='black';
-       document.getElementById('p_image').innerHTML = '<img class="imgp" src="/img/sl1.png" alt="ROSOL Solar Collector">';
-       document.getElementById('p_content').innerHTML = '<h1 class="phead"><center> Solar Collector</center></h1><ul class="listed_a"><li class="a01">It is a panel designed to utilise solar energy for generating electricity.</li><li class="a02">These are <b>weather-proof</b> and are able to withstand high level of ultra-violet radiations and moisture</li><li class="a03">Our company provides <b>high quality </b>panels with <b>25 years performance warranty</b></li><li class="a04">It can also run directly on electricity and grid, </li><li class="a05">Electricity <b>savings</b> upto <b>70%</b>. </li><!--<li class="a06">It is ideal for industries, hotels, supermarkets, colleges, schools, factories, restaurants, commercial places. </li>--></ul>'
       
        counter+=1;
    }
@@ -91,33 +83,27 @@ function changep()
       if(counter == 0)
       { 
         counter+=1;
+     document.getElementById('p_content').innerHTML = '<span id="projh">Our Projects</span>';
        document.getElementById('c-butna').style.backgroundColor='black';
        document.getElementById('c-butne').style.backgroundColor='white';
-       document.getElementById('p_image').innerHTML = '<img class="imgp" src="/img/sl1.png" alt="ROSOL Solar Collector">';
-       document.getElementById('p_content').innerHTML = '<h1 class="phead"><center> Solar Collector</center></h1><ul class="listed_a"><li class="a01">It is a panel designed to utilise solar energy for generating electricity.</li><li class="a02">These are <b>weather-proof</b> and are able to withstand high level of ultra-violet radiations and moisture</li><li class="a03">Our company provides <b>high quality</b> panels with <b>25 years performance warranty</b></li><li class="a04">It can also run directly on electricity and grid, </li><li class="a05">Electricity <b>savings</b> upto <b>70%</b>. </li><!--<li class="a06">It is ideal for industries, hotels, supermarkets, colleges, schools, factories, restaurants, commercial places. </li>--></ul>'
       }
         else if(counter == 1){
           counter+=1;
+        document.getElementById('p_content').innerHTML = '<span id="wgs" style="padding-bottom:20px;">Why go Solar?</span><table id="tab" style="width: 80%;" border="0" cellpadding="15" ><tbody><tr><td><center><img style="width:80px;"src="/img/icons/pe.png"><br><span id="wogs">Save the <span style="color:#5FAD56">Environment</span></span></center></td><td><center><img style="width:80px;"src="/img/icons/sm.png"><br><span id="wogs">Earn a great Return!</span></center></td><td><center><img style="width:80px;"src="/img/icons/shp.png"><br><span id="wogs">Guaranteed Performance</span></center></td></tr><tr><td><center><img style="width:80px;"src="/img/icons/emai.png"><br><span id="wogs">Easy Maintenance</span></center></td><td><center><img style="width:80px;"src="/img/icons/lb.png"><br><span id="wogs">Reduce your bills!</span></center></td><td><center><img style="width:80px;"src="/img/icons/sus.png"><br><span id="wogs">Commit to Sustainability</span></center></td></tr><tr><td colspan="3"><center><img style="width:90px;"src="/img/icons/solc.png"><br><span id="wogs">Use our Calculator to find your savings on switching to Solar</span></center></td></tr></tbody></table>';
           document.getElementById('c-butna').style.backgroundColor='white';
           document.getElementById('c-butnb').style.backgroundColor='black';
-          document.getElementById('p_image').innerHTML = '<img class="imgp" src="/img/sl2.png" alt="ROSOL Solar AC">';
-          document.getElementById('p_content').innerHTML = '<h1 class="phead"><center>Solar Air Conditioner</center></h1><ul class="listed_a"><li class="a01">Solar AC use the combination of <b>solar power and battery</b>,</li><li class="a02"><b>Plug-n-play</b> solar connection, </li><li class="a03">48 V solar battery power with <b>anti corrosion</b> technology,</li><li class="a04">It can also run directly on electricity and grid, </li><li class="a05">Electricity <b>savings</b> upto <b>70%</b>. </li><!--<li class="a06">Solar powered Air-Conditioning a is ideal for industries, hotels, supermarkets, colleges, schools, factories, restaurants, commercial places. </li>--></ul>';
 
         }
          else if(counter == 2){
           counter+=1;
             document.getElementById('c-butnb').style.backgroundColor='white';
             document.getElementById('c-butnc').style.backgroundColor='black';
-            document.getElementById('p_image').innerHTML = '<img class="imgp" src="/img/sl3.png" alt="ROSOL Solar Home Lighting System">';
-            document.getElementById('p_content').innerHTML = '<h1 class="phead"><center>Solar Home Lighting System</center></h1><ul class="listed_a"><li class="a01">A efficient energy solution includes a solar panel with <b>inbuilt battery</b> pack, <b>two solar lights</b> ,<b>two light switch.</b></li><li class="a02">It is <b>easy to carry</b> because of its <b>compact design</b> and <b>light weighted metal body.</b></li><li class="a03">LED Bulb <b>Overcharge Protection</b></li><li class="a04">Output Battery Back up Ranges : Upto 12-24 hrs</li><li class="a05">Solar Battery : 3 Years Warranty </li></ul>';
  
         }
          else if(counter == 3){
           counter+=1;
             document.getElementById('c-butnc').style.backgroundColor='white';
             document.getElementById('c-butnd').style.backgroundColor='black';
-            document.getElementById('p_image').innerHTML = '<img class="imgp" src="/img/sl4.png" alt="ROSOL Solar Table Fan">';
-            document.getElementById('p_content').innerHTML = '<h1 class="phead"><center>Solar Table Fan</center></h1><ul class="listed_a"><li class="a01">It requires very <b>Low Voltage</b> input which leads to <b>reduced electricity bills</b>.</li><li class="a02">Solar Table Fan can Run on both Electricity and Solar Energy.</li><li class="a03">It makes <b>No noise</b> and produces <b>No heat</b> during operation</li><li class="a04">Once fully charged, it can provide Backup up for 7-8 hours.</b></li><li class="a05">Warranty: 2 years.</li></ul>';
  
         }
          else if(counter == 4){
@@ -125,11 +111,104 @@ function changep()
           counter%=5;
             document.getElementById('c-butnd').style.backgroundColor='white';
             document.getElementById('c-butne').style.backgroundColor='black';
-            document.getElementById('p_image').innerHTML = '<img class="imgp" src="/img/sl5.png" alt="ROSOL Solar Lantern">';
-            document.getElementById('p_content').innerHTML = '<h1 class="phead"><center>Solar Lantern</center></h1><ul class="listed_a"><li class="a01">Built in electrical charger with <b>overcharge protection</b> for safety and <b>long life</b>.</li><li class="a02">It also provides <b>Mobile Charging facility</b>.</li><li class="a03">Unique two-way operation with <b>LED indicators</b> for comfort.</li><li class="a04">Once fully charged, it can provide <b>Backup Upto 8-10 hours</b></li><li class="a05">Solar Module: 15 Yrs Warranty</li></ul>';
 }
 }, 10000);
 }
+function check()
+{
+var ch = String.fromCharCode(97 + counter);
+  if(ch == 'a')
+    clicka();
+  if(ch == 'b')
+    clickb();
+  if(ch == 'c')
+    clickc();
+  if(ch == 'd')
+    clickd();
+  if(ch == 'e')
+    clicke();          
+}
+function decreCounter(){
+clearInterval(interval);
+  if(hclick == 0)
+  {
+    hclick=-11;
+    counter-=2;
+  }
+  else{
+  counter=counter-1;
+}
+  if(counter<0)
+    counter=4;
+
+  check();
+}
+function increCounter(){
+  clearInterval(interval);
+  if(hclick == 0)
+  {
+    hclick=-11;
+  }
+  else{
+  counter=counter+1;
+}
+  if(counter>4)
+    counter%=5;
+
+  check()
+}
+function knowMore(){
+    
+    document.getElementById("serb").style.display="none";
+    document.getElementById("serc").style.display="none";
+    document.getElementById("serd").style.display="none";
+    document.getElementById("sera").style.display="none";
+    document.getElementById("p1").style.display="none";
+    document.getElementById("hidden").style.display="block";
+    
+  }
+function knowMore2(){
+    
+    document.getElementById("serb").style.display="none";
+    document.getElementById("serc").style.display="none";
+    document.getElementById("serd").style.display="none";
+    document.getElementById("sera").style.display="none";
+    document.getElementById("p1").style.display="none";
+    document.getElementById("hidden2").style.display="block";
+    
+  }
+function knowMore3(){
+    
+    document.getElementById("serb").style.display="none";
+    document.getElementById("serc").style.display="none";
+    document.getElementById("serd").style.display="none";
+    document.getElementById("sera").style.display="none";
+    document.getElementById("p1").style.display="none";
+    document.getElementById("hidden3").style.display="block";
+    
+  }
+function knowMore4(){
+    
+    document.getElementById("serb").style.display="none";
+    document.getElementById("serc").style.display="none";
+    document.getElementById("serd").style.display="none";
+    document.getElementById("sera").style.display="none";
+    document.getElementById("p1").style.display="none";
+    document.getElementById("hidden4").style.display="block";
+    
+  }
+function goBack(){
+    document.getElementById("sera").style.display="inline-block";
+    document.getElementById("serb").style.display="inline-block";
+    document.getElementById("serc").style.display="inline-block";
+    document.getElementById("serd").style.display="inline-block";
+    document.getElementById("p1").style.display="block";
+    document.getElementById("hidden").style.display="none";
+    document.getElementById("hidden2").style.display="none";
+    document.getElementById("hidden3").style.display="none";
+    document.getElementById("hidden4").style.display="none";
+}
+
 /*
 function displayInfo(){
     document.getElementById("info1").style.display="block";

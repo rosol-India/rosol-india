@@ -40,7 +40,7 @@ p {
 }
 ul {
   padding: 0;
-    margin-bottom: 10%;
+  margin-bottom: 10%;
   list-style: none;
 }
 a,
@@ -754,7 +754,7 @@ ul#portfolio-contant-active {
   footer Start
 --*/
 footer {
-  background: #FFF7B4;
+  background: white;
   text-align: center;
   padding-top: 48px;
   padding-bottom: 55px;
@@ -805,4 +805,135 @@ footer .footer-manu ul li a:hover {
   color: white;
   background-color: #5FAD56;
   font-weight: bolder;
+}
+
+
+.custom-nav {
+  border-radius: 0px;
+  background: #FFF;
+  border-bottom: solid 1px #ededed;
+}
+.custom-nav .navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+}
+.custom-nav .nav {
+  border-radius: 0px;
+}
+.custom-nav .nav li {
+  margin-top: 0px;
+}
+.custom-nav .nav li a {
+  color: #3a3a3a;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  font-size: 12px;
+  padding-right: 15px;
+  transition: background 0.3s ease-in-out;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+.custom-nav .nav li a.social-link {
+  padding-top: 11px;
+  padding-bottom: 0;
+  padding-left: 10px;
+  font-size: 25px;
+  padding-right: 10px;
+}
+.custom-nav .nav li a.social-link:hover {
+  text-decoration: none;
+  background-color: transparent;
+  color: inherint;
+}
+.custom-nav .nav li a.social-link .fa.fa-facebook-official {
+  background: #3B5998;
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.custom-nav .nav li a.social-link .fa.fa-instagram {
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.custom-nav .navbar-toggle {
+  padding: 10px;
+  margin: 10px;
+}
+.custom-nav .navbar-brand {
+  color: #3a3a3a;
+}
+
+.custom-toggle {
+  border: none;
+  margin: 0px;
+}
+
+@media (max-width: 991px) {
+  .navbar-header {
+    float: none;
+  }
+
+  .navbar-left,
+  .navbar-right {
+    float: none !important;
+  }
+
+  .navbar-toggle {
+    display: block;
+    background: #ededed;
+  }
+  .navbar-toggle .icon-bar {
+    background: #3a3a3a;
+  }
+
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+
+  .navbar-nav {
+    float: none !important;
+    margin-top: 7.5px;
+  }
+
+  .navbar-nav > li {
+    float: none;
+  }
+
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .collapse.in {
+    display: block !important;
+  }
+}
+.dropdown-menu {
+  border-radius: 0;
+  box-shadow: none;
+}
+.dropdown-menu li a {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.caret {
+  margin-top: -4px;
 }

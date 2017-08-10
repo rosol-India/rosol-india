@@ -5,21 +5,158 @@ permalink: /home/
 ---
   <link rel="stylesheet" href="{{ site.baseurl }}/css/sliding.css" />
 <script src="{{ site.baseurl }}/js/slider.js"></script>
-<section class="home_s">
-    <div id="home_p">
-        <div id="p_image">
-        </div>
+<section id="home_s">
         <div id="p_content">
+          <span id="chead">Rays of <span id="hsun"> Sun </span> Oriented Light</span><br><span id="ibout">A Solar Powered Products<span style="color:#5FAD56"> &amp </span> Solutions Company<span style="color:#5FAD56"> .</span></span>
           
-        </div>
-    </div>
-    <div class="p_save">
-        <center><button class="order-b">ORDER NOW</button></center>
     </div>
     <div class="p_change">
+       <div id="left">
+              <img src="{{ site.baseurl }}/img/icons/left.png" id="limg" onclick="decreCounter()">
+          </div>  
+           <div id="right">
+              <img src="{{ site.baseurl }}/img/icons/right.png" id="rimg" onclick="increCounter()">
+          </div>
        <center><button id="c-butna" onclick="clicka()"></button><button id="c-butnb" onclick="clickb()"></button><button id="c-butnc" onclick="clickc()"></button><button id="c-butnd" onclick="clickd()"></button><button id="c-butne" onclick="clicke()"></button></center>
     </div>
   </section>
+    <section id="hservices">
+      <span id="wgs" style="padding-bottom:20px;">Our Services</span>
+       <p id="per">ROSOL has an expertise in harnessing solar energy and constructing turnkey solar power plant in every possible way – be it grid connected or off-grid, be it KW to MW and this is how we do it!</p>
+      <div id="sera" class="left-text"><img class="serimg" src="{{ site.baseurl }}/img/icons/consulserv.png"><h1 style="font-size:1em">Consulting Service</h1><br>They form mostly initial phase of development of plant..
+       <!--  <input type="button" id="know"  value="KNOW MORE" onclick="knowMore()">-->
+      </div>
+
+      <div id="serb" class="left-text"><img class="serimg" src="{{ site.baseurl }}/img/icons/dae.png"><h1 style="font-size:1em">Design and Engineering</h1><br>They form mostly initial phase of development of plant..
+          <!--<input type="button" id="know"  value="KNOW MORE" onclick="knowMore2()">-->
+      </div>
+
+
+      <div id="serc" class="left-text"><img class="serimg" src="{{ site.baseurl }}/img/icons/projser.png"><h1 style="font-size:1em">Project Development</h1><br>They form mostly initial phase of development of plant..
+          <!--<input type="button" id="know"  value="KNOW MORE" onclick="knowMore3()">-->
+      </div><br>
+
+      <div id="serd" class="left-text"><img class="serimg" src="{{ site.baseurl }}/img/icons/oam.png"><h1 style="font-size:1em">Installation and Comissioning</h1><br>They form mostly initial phase of development of plant.
+         <!-- <input type="button" id="know"  value="KNOW MORE" onclick="knowMore4()">-->
+      </div>
+      <div id="sere" class="left-text"><img class="serimg" src="{{ site.baseurl }}/img/icons/busoutc.png"><h1 style="font-size:1em">BOS Supply</h1><br>They form mostly initial phase of development of plant.
+         <!-- <input type="button" id="know"  value="KNOW MORE" onclick="knowMore4()">-->
+      </div>
+      <div id="serf" class="left-text"><img class="serimg" src="{{ site.baseurl }}/img/icons/partser.png"><h1 style="font-size:1em">Partnership</h1><br>They form mostly initial phase of development of plant.
+         <!-- <input type="button" id="know"  value="KNOW MORE" onclick="knowMore4()">-->
+      </div>
+      <!--
+  Solar Consulting Services:
+Solar Project Services
+Solar Design &amp; Engineering Services
+Solar Installation &amp; Commissioning Services
+Solar BOS Supply Services
+Partnership Services-->
+      <!--
+      <div id="hidden">
+          
+          <div id="imgBox"><img src="approval.png" id="image" alt=""></div>
+          <center><h1 id="serHead">APPROVALS AND PERMITTING</h1></center>
+            <div id="cont"><p>A) Project registration at MNRE (Ministry of Non Renewable Energy) nodal agency</p>
+            <p>B) LTOA (Long Term Open Agreement) related works</p>
+            <p>c) Plant commissioning certificate</p>
+            <p>D) (power purchase agreement) with private/government</p>
+            <p>E) Accreditation Certificate</p>
+            </div>
+            <input type="button" id="back" value="GO BACK" onclick="goBack()"/>
+      </div> 
+      <div id="hidden2">
+          
+          <div id="imgBox"><img src="dae.png" id="image" alt=""></div>
+          <center><h1 id="serHead">DESIGN AND ENGINEERING</h1></center>
+            <div id="cont"><p>A) Project registration at MNRE (Ministry of Non Renewable Energy) nodal agency</p>
+            <p>B) LTOA (Long Term Open Agreement) related works</p>
+            <p>c) Plant commissioning certificate</p>
+            <p>D) (power purchase agreement) with private/government</p>
+            <p>E) Accreditation Certificate</p>
+            </div>
+            <input type="button" id="back" value="GO BACK" onclick="goBack()"/>
+      </div> 
+      <div id="hidden3">
+          
+          <div id="imgBox"><img src="construction.png" id="image" alt=""></div>
+          <center><h1 id="serHead">PROCUREMENT AND CONSTRUCTION</h1></center>
+            <div id="cont"><p>A) Project registration at MNRE (Ministry of Non Renewable Energy) nodal agency</p>
+            <p>B) LTOA (Long Term Open Agreement) related works</p>
+            <p>c) Plant commissioning certificate</p>
+            <p>D) (power purchase agreement) with private/government</p>
+            <p>E) Accreditation Certificate</p>
+            </div>
+            <input type="button" id="back" value="GO BACK" onclick="goBack()"/>
+      </div> 
+      <div id="hidden4">
+          
+          <div id="imgBox"><img src="oam.png" id="image" alt=""></div>
+          <center><h1 id="serHead">OPERATION AND MAINTENANCE</h1></center>
+            <div id="cont"><p>A) Project registration at MNRE (Ministry of Non Renewable Energy) nodal agency</p>
+            <p>B) LTOA (Long Term Open Agreement) related works</p>
+            <p>c) Plant commissioning certificate</p>
+            <p>D) (power purchase agreement) with private/government</p>
+            <p>E) Accreditation Certificate</p>
+            </div>
+            <input type="button" id="back" value="GO BACK" onclick="goBack()"/>
+      </div> -->
+      
+      <center><button class="order-b">Learn More</button></center>
+
+    </section>
+
+        <section id="wros">
+          <span id="wgs" style="padding-bottom:20px;">Why ROSOL?</span>
+
+    </section>
+    <section id="mros">
+          <span id="wgs" style="padding-bottom:20px;">Our Team</span>
+    <div id="sera1"><center><div id="mema"><img class="memimg" src="{{ site.baseurl }}/img/icons/man.png"></div></center>
+      <div id="abt">
+        <center>
+          Anshuman Mundhra<br/>
+          Director<br/>
+          BDS, Gwalior<br/>
+          Handles Marketing Division<br/>
+          Meticulously handles work and completes with perfection and quality.
+        </center>
+      </div>
+    </div>
+    <div id="serb1"><center><div id="memb"><img class="memimg" src="{{ site.baseurl }}/img/icons/man.png"></div></center>
+      <div id="abt">
+        <center>
+          Anshuman Mundhra<br/>
+          Director<br/>
+          BDS, Gwalior<br/>
+          Handles Marketing Division<br/>
+          Meticulously handles work and completes with perfection and quality.
+        </center>
+      </div>
+    </div>
+    <div id="serc1"><center><div id="memc"><img class="memimg" src="{{ site.baseurl }}/img/icons/man.png"></div></center>
+      <div id="abt">
+        <center>
+          Anshuman Mundhra<br/>
+          Director<br/>
+          BDS, Gwalior<br/>
+          Handles Marketing Division<br/>
+          Meticulously handles work and completes with perfection and quality.
+        </center>
+      </div>
+    </div>
+    <div id="serd1"><center><div id="memd"><img class="memimg" src="{{ site.baseurl }}/img/icons/man.png"></div></center>
+      <div id="abt">
+        <center>
+          Anshuman Mundhra<br/>
+          Director<br/>
+          BDS, Gwalior<br/>
+          Handles Marketing Division<br/>
+          Meticulously handles work and completes with perfection and quality.
+        </center>
+      </div>
+    </div>
+    </section>
 <!-- Slider Start
 <section id="slider">
   <div class="container">
