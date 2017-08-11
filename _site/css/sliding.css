@@ -1,6 +1,6 @@
     @import url('https://fonts.googleapis.com/css?family=Arvo');
 td{
-	padding:15px;
+  padding:15px;
 }
   @media screen and (min-width: 208px)
       {
@@ -147,16 +147,23 @@ td{
     top: -13px;
 }
 #left{
+
+    opacity: 0.2;
       float: left;
-    position: absolute;
-    top: 35%;
+    position: relative;
+    top: -273px;
     left: 1%;
 }
 #right{
-      float: left;
-    position: absolute;
-    top: 35%;
+  opacity: 0.2;
+      float: right;
+    position: relative;
+    top: -273px;
     right: 1%;
+}
+#left:hover,#right:hover{
+
+    opacity: 1;
 }
 #limg{
     height:50px;

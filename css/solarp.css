@@ -1,0 +1,70 @@
+#one,#two,#three,#four,#five,#six{
+	width:99%;
+	padding:1% 5%;
+}
+#head{
+	font-size: 35px;
+	font-weight:bold;
+	letter-spacing: 1px;
+	padding-bottom: 1%;
+}
+#pcont{
+	text-align: justify;
+	font-size:17px;
+}
+#subhead{
+	font-size:25px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding-top: 3%;
+	padding-bottom: 2%;
+}
+#subhead2{
+	font-size:25px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding-top: 0%;
+	padding-bottom: 2%;
+	text-align: center;
+}
+#partner{
+	font-size:17px;
+	font-weight: bold;
+	text-align: center;
+	width:100%;
+}
+#label{
+	padding-bottom: 1%;
+}
+#list1{
+	padding-top: 1%;
+	font-size:17px;
+}
+#list2{
+	padding-top: 1%;
+	list-style-type: disc;
+	padding-left:4%;
+	margin-bottom: 4%;
+}
+#list3{
+	font-size:20px;
+}
+#list{
+	list-style-image: url("/img/icons/arrow.png");
+	padding-left:4%;
+	margin-bottom: 4%;
+}
+#box1{
+	margin:1% 35%;
+	width:30%;
+    text-align: top;
+    font-size:17px;
+}
+#icon,#image{
+	height:80px;
+	display:inline-block;
+	width:100px;
+}
+#heading{
+	display:inline-block;
+}

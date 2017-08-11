@@ -1,0 +1,200 @@
+	#body{
+		width:99%;
+	}
+	#outermost{
+			width:99%;
+			font-size: 1.2vw;
+		}
+		#txt{
+			text-align: justify;
+			padding: 1%;
+		}
+	#one{
+			width:100%;
+			padding: 0% 10% 10% 10%;
+			text-align: justify-all;
+		}
+		#who,#team{
+			font-size: 3vw;
+			letter-spacing: 2px;
+			font-weight: 900;
+			padding: 0% 0% 3% 0%;
+		}
+		#team{
+			padding:5% 0%;
+		}
+		#vis1{
+			font-size: 25px;
+			font-weight: bold;
+		}
+		#list{
+			margin-bottom: 0%;
+		}
+		hr{
+			border-top: 2px dashed black;
+			margin:0% 10%;
+		}
+		#mem1{
+			display: inline-block;
+    height: 128px;
+    width: 128px;
+    position: relative;
+    /* top: 0px; */
+    /* margin-left: 5%; */
+    border: 1px solid black;
+    border-radius: 95px;
+    float: left;
+		}
+		#mem2{
+			    display: inline-block;
+    height: 144px;
+    width: 144px;
+    position: relative;
+    margin-left: 5%;
+    border: 1px solid black;
+    border-radius: 95px;
+    margin-right: 3%;
+		}
+		#mem_info{
+			    display: inline-block;
+    height: 144px;
+    width: 60%;
+    font-size: 1.2vw;
+    padding-top: 1%;
+    text-align: center;
+		}
+		#sera1
+{
+  display: inline-block;
+  width: 25%;
+  padding: 2%;
+  border-radius: 3px;
+  margin-left: 0%;
+  vertical-align: top;
+}
+#abt{
+    padding:2%;
+    font-size:1.2vw;
+}
+#box{
+	display: inline-block;
+    width: 42%;
+    margin: 4% 1%;
+    /* margin-left: 9%; */
+    padding-left: 10%;
+    text-align: center;
+}
+#mailto,#tele{
+	text-decoration:none;
+	color:black;
+}
+		@media screen and (max-width: 1037px){
+			#box{
+				padding-left:5%;
+
+			}
+		}
+		@media screen and (max-width: 950px){
+			#abt,#mem_info{
+				font-size: 2vw;
+			}
+			#mem_info{
+				display:block;
+				width:100%;
+			}
+			#mem1{
+				width:40%;
+				margin:0% 30%;
+				display:block;
+			}
+			hr{
+				margin-top:5%;
+			}
+		}
+		@media screen and (max-width: 750px){
+			#box{
+				padding-left: 4%;
+			}
+			#mem1{
+				/*width:50%;*/
+				width:144px;
+				height:144px;
+				margin:5% 25%;
+			}
+		}
+		@media screen and (max-width: 700px){
+			#who,#team{
+				font-size: 5vw;
+			}
+			#body{
+				font-size: 18px;
+			}
+			#li1{
+				font-size:22px;
+			}
+			#abt{
+				font-size: 2.5vw;
+			}
+		}
+		@media screen and (max-width: 600px){
+			#box{
+				display: block;
+   				height: auto;
+    			margin: 5% 30%;
+    			padding-bottom: 27%;
+    			padding-left: 0%;
+			}
+			#mem_info{
+				width:100%;
+				font-size: 3vw;
+			}
+			#mem1{
+			   /* width: 64%;*/
+			    margin-left: 19%;
+			}
+			#sera1{
+				display: block;
+				width:100%;
+			}
+			#abt{
+				font-size: 3vw;
+				width:50%;
+				text-align: center;
+			}
+		}
+		@media screen and (max-width: 500px){
+			#who,#team{
+				font-size: 6vw;
+			}
+			#mem_info{
+				width:100%;
+				font-size: 4vw;
+			}
+			#box{
+				width:100%;
+				margin:5% 1%;
+				padding-bottom: 30%;
+			}
+			#mem1{
+				/*width:30%;*/
+				margin:2% 35%;
+			}
+			
+		}
+		@media screen and (max-width: 400px){
+			#mem1{
+				/*width:38%;*/
+				margin:2% 31%;
+			}
+			#abt{
+				font-size:4vw 
+			}
+		}
+		@media screen and (max-width: 350px){
+			#who,#team{
+				font-size: 7vw;
+			}
+			#li1{
+				font-size:19px;
+			}
+		}
