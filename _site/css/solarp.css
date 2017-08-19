@@ -1,6 +1,6 @@
 #one,#two,#three,#four,#five,#six{
 	width:99%;
-	padding:1% 5%;
+	padding:1% 10%;
 }
 #head{
 	font-size: 35px;
@@ -67,4 +67,14 @@
 }
 #heading{
 	display:inline-block;
+}
+.service-responsive-img
+{
+  display: block;width:100%;  margin-left: auto; margin-right: auto;  
+}
+h2 {
+  font: normal normal 300 36px/2 "Roboto", serif;
+}
+p {
+  font: normal normal 400 16px/1.5 "Roboto", sans-serif;
 }

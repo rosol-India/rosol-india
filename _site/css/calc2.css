@@ -10,11 +10,11 @@ body{
     text-size-adjust: 100%;
     width: 100%;
     background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
-    border: 1px solid rgb(71, 71, 71);
+    /*border: 1px solid rgb(71, 71, 71);*/
     font: normal normal normal normal 15px / 21.4286px dinregular, Arial, sans-serif;
     outline: rgb(93, 93, 93) none 0px;
     padding: 1.5% 0% 1.5%;
-    background-color:#FFFFEA;
+    background-color:white;
 }/*#SECTION_1*/
 
 
@@ -228,32 +228,20 @@ body{
 }/*#SPAN_36, #SPAN_38, #SPAN_40*/
 
 #INPUT_37,#INPUT_39,#INPUT_41{
-    -webkit-animation: fade 0.5s ease-in-out forwards;
-    -webkit-animation-delay: 3s;
-    -moz-animation: fade 0.5s ease-in-out forwards;
-    -moz-animation-delay: 3s;
-    -o-animation: fade 0.5s ease-in-out forwards;
-    -o-animation-delay: 3s;
-    animation: fade 0.5s ease-in-out forwards;
-    animation-delay: 3s;
     outline: 0;
-    color: #0e0e0e;
+    color: white;
     font-weight: 300;
     font-size: 14px;
-    letter-spacing: -1.0px;
-    background-color: #fdfafa;
+    letter-spacing: 2.0px;
+    background-color: #0B9840;
     -webkit-transition-duration: 0.6s;
     transition-duration: 0.6s;
     text-align: center;
-    border: black 1.5px solid;
-
+    border: transparent 1.5px solid;
     cursor: pointer;
     height: 42px;
     text-align: center;
-
-    
     width: 30%;
-    
     padding: 12px;
     
     
@@ -262,32 +250,25 @@ body{
 
 #INPUT_37:hover,#INPUT_39:hover,#INPUT_41:hover
 {
-    background-color: #5FAD56;
+    background-color: #188b44;
     color: white;
-    letter-spacing: 0px;
-    border: black 1.5px dashed;
+    letter-spacing: 2px;
+    border: black 1.5px solid;
 }
 
 #INPUT_43 {
-    -webkit-animation: fade 0.5s ease-in-out forwards;
-    -webkit-animation-delay: 3s;
-    -moz-animation: fade 0.5s ease-in-out forwards;
-    -moz-animation-delay: 3s;
-    -o-animation: fade 0.5s ease-in-out forwards;
-    -o-animation-delay: 3s;
-    animation: fade 0.5s ease-in-out forwards;
-    animation-delay: 3s;
+    
     padding: 12px;
     outline: 0;
     font-weight: 300;
     font-size: 14px;
-    letter-spacing: -1.0px;
-    background-color: #fdfafa;
-    color: #0e0e0e;
+    letter-spacing: 2px;
+    background-color: #0B9840;
+    color: white;
     -webkit-transition-duration: 0.6s;
     transition-duration: 0.6s;
     text-align: center;
-    border: black 1.5px solid;
+    border: transparent 1.5px solid;
    
     cursor: pointer;
     height: 46px;
@@ -310,10 +291,10 @@ body{
 }/*#INPUT_43*/
 #INPUT_43:hover{
     
-    background-color: #5FAD56;
+    background-color:#188b44;
     color: white;
-    letter-spacing: 0px;
-    border: black 1.5px dashed; 
+    letter-spacing: 2px;
+    border: black 1.5px solid; 
 
 }
 #DIV_36{
@@ -352,7 +333,7 @@ body{
     font: normal normal normal normal 15px / 21.4286px dinregular, Arial, sans-serif;
     outline: rgb(93, 93, 93) none 0px;
     padding: 0% 0% 3% 0%;
-    background-color:#FFFFEA;
+    background-color:white;
 }/*#SECTION_1*/
 
 #DIV_2A {
@@ -2626,21 +2607,13 @@ height: 30px;
 #DIV_189 {
     
     box-sizing: border-box;
-    -webkit-animation: fade 0.5s ease-in-out forwards;
-    -webkit-animation-delay: 3s;
-    -moz-animation: fade 0.5s ease-in-out forwards;
-    -moz-animation-delay: 3s;
-    -o-animation: fade 0.5s ease-in-out forwards;
-    -o-animation-delay: 3s;
-    animation: fade 0.5s ease-in-out forwards;
-    animation-delay: 3s;
     padding: 3px;
     outline: 0;
     font-weight: 300;
     font-size: 14px;
-    letter-spacing: -1.3px;
-    background-color: #fdfafa;
-    color: #0e0e0e;
+    letter-spacing: 1px;
+    background-color: #0B9840;
+    color: white;
     -webkit-transition-duration: 0.6s;
     transition-duration: 0.6s;
     text-align: center;
@@ -2650,7 +2623,7 @@ height: 30px;
     cursor: pointer;
     display: inline-block;
     height: 42px;
-    
+    border:transparent  1.5px solid; 
     width: 80%;
    
     margin: 3% 0% 0%;
@@ -2658,10 +2631,10 @@ height: 30px;
 }/*#DIV_189*/
 #DIV_189:hover
 {
-background-color: #5FAD56;
+background-color: #188b44;
     color: white;
-    letter-spacing: 0px;
-    border: black 1.5px dashed;
+    letter-spacing: 1px;
+    border: black 1.5px solid;
 }
 #DIV_193 {
     box-sizing: border-box;
@@ -2743,7 +2716,7 @@ background-color: #5FAD56;
     padding-left: 0%;
     padding-right: 0%;
     margin-left: 6%;
-    background-color:#ffffea;
+    background-color:white;
 }
 #range{
     font-size: 200%;

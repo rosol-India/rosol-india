@@ -40,7 +40,7 @@ p {
 }
 ul {
   padding: 0;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   list-style: none;
 }
 a,
@@ -751,38 +751,6 @@ ul#portfolio-contant-active {
 /*--
   footer Start
 --*/
-footer {
-  background: #fbf2f2;
-  text-align: center;
-  padding-top: 48px;
-  padding-bottom: 55px;
-}
-footer p {
-  font-size: 13px;
-  line-height: 25px;
-  color: #919191;
-}
-footer a {
-  color: #595959;
-}
-footer .footer-manu {
-  padding-bottom: 25px;
-}
-footer .footer-manu ul {
-  margin: 0px;
-  padding: 0px;
-}
-footer .footer-manu ul li {
-  display: inline-block;
-  padding: 0px 20px;
-}
-footer .footer-manu ul li a {
-  display: inline-block;
-  color: #494949;
-}
-footer .footer-manu ul li a:hover {
-  color: #000;
-}
 
 #Pname{
   padding-top: 21%;
@@ -934,4 +902,136 @@ footer .footer-manu ul li a:hover {
 
 .caret {
   margin-top: -4px;
+}
+#logo,#logoImage{
+  height:40px;
+  width:40px;
+}
+#logo{
+  display: inline-block;
+  float:left;
+  padding-top: 3%;
+}
+
+#call{
+      width: 98%;
+          margin-right: 0%;
+          background-color: white;
+          color: white;
+          
+      }
+    #mailto{
+        text-decoration: none;
+        color:black;
+        margin: 0% 1%;
+        padding-left: 6%;
+      }
+    #tele{
+        text-decoration: none;
+        color:black;
+        margin: 0% 1%;
+        padding-left: 60%;
+      }
+
+@media screen and (max-width: 1198px)
+{
+
+  #tele{
+    padding-left:60%;
+  }
+  #mailto{
+    padding-left:2%;
+  }
+}
+@media screen and (max-width: 1060px){
+   #tele{
+    padding-left:50%;
+  }
+  #mailto{
+    padding-left:0.5%;
+  }
+}
+@media screen and (max-width: 992px){
+  #logo{
+    padding-top: 1%;
+  }
+}
+@media screen and (max-width: 818px){
+  #tele{
+    padding-left:40%;
+    font-size: 1.8vw;
+  }
+  #mailto{
+    padding-left:4%;
+    font-size: 1.8vw;
+  }
+}
+@media screen and (max-width: 766px)
+{
+  .navbar-brand{
+    padding-left:1px !important;
+  }
+}
+@media screen and (max-width: 673px){
+  #tele{
+    padding-left:30%;
+    font-size: 2.2vw;
+  }
+  #mailto{
+    padding-left:3%;
+    font-size: 2.2vw;
+  }
+}
+@media screen and (max-width: 500px){
+  #tele{
+    padding:0% 25%;
+    font-size: 3vw;
+    
+  }
+  #mailto{
+    padding:0% 25%;
+    font-size: 3vw;
+
+  }
+}
+#list7{
+  list-style-image: url("/img/icons/tick2.png");
+  letter-spacing: 1px;
+  text-align: left;
+  width:50%;
+  margin: 0% 25% 2% 29%;
+  font-weight: bold;
+}
+#sublist{
+  padding-top: 10px;
+}
+#benefit{
+  font-size:25px;
+  font-weight: 900;
+}
+@media screen and (max-width: 1100px){
+  #list7{
+    margin: 0% 10% 2% 18%;
+    width:80%;
+  }
+}
+@media screen and (max-width: 800px){
+  #list7{
+    margin:0% 0% 2% 7%;
+    width:90%;
+  }
+}
+
+
+@media screen and (max-width: 500px){
+  #list7{
+    margin:0% 0% 2% 9%;
+    width:88%;
+  }
+}
+@media screen and (max-width: 400px){
+  #list7{
+    margin: 0% 0% 2% 14%;
+    width: 80%;
+  }
 }

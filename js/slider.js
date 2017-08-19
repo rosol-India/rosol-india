@@ -20,62 +20,109 @@ var t = 0;
 
     }*/
     
+    /*
+    use this to add background change effect--->
+            background-image: url("/img/sl111.jpg");
+        background-size: cover;
+
+          -webkit-transition: background-image 0.6s linear;
+       transition: background-image 0.6s linear;
+    */
 window.onload = function() {
   setTimeout(function() { changep(); }, 4000);
 }
 function clicka()
 {        
     clearInterval(interval);
-       document.getElementById('p_content').innerHTML = '<span id="projh">Our Projects</span>';
+    document.getElementById("home_s").style.backgroundImage="url(/img/a.jpg)";
+    document.getElementById('p_content').innerHTML = '<center><span id="quote"><center>Sun is simply a one big battery for us.</center></span></center>';
        document.getElementById('c-butna').style.backgroundColor='black';
        document.getElementById('c-butnb').style.backgroundColor='white';
        document.getElementById('c-butnc').style.backgroundColor='white';
        document.getElementById('c-butnd').style.backgroundColor='white';
        document.getElementById('c-butne').style.backgroundColor='white';
+       document.getElementById('c-butna').style.display='inline-block';
+       document.getElementById('c-butnb').style.display='inline-block';
+       document.getElementById('c-butnc').style.display='inline-block';
+       document.getElementById('c-butnd').style.display='inline-block';
+       document.getElementById('c-butne').style.display='inline-block';
       
 }
 function clickb()
 {        
     clearInterval(interval);
-    document.getElementById('p_content').innerHTML = '<span id="wgs" style="padding-bottom:20px;">Why go Solar?</span><table id="tab" style="width: 80%;" border="0" cellpadding="15" ><tbody><tr><td><center><img style="width:80px;"src="/img/icons/pe.png"><br><span id="wogs">Save the <span style="color:#5FAD56">Environment</span></span></center></td><td><center><img style="width:80px;"src="/img/icons/sm.png"><br><span id="wogs">Earn a great Return!</span></center></td><td><center><img style="width:80px;"src="/img/icons/shp.png"><br><span id="wogs">Guaranteed Performance</span></center></td></tr><tr><td><center><img style="width:80px;"src="/img/icons/emai.png"><br><span id="wogs">Easy Maintenance</span></center></td><td><center><img style="width:80px;"src="/img/icons/lb.png"><br><span id="wogs">Reduce your bills!</span></center></td><td><center><img style="width:80px;"src="/img/icons/sus.png"><br><span id="wogs">Commit to Sustainability</span></center></td></tr><tr><td colspan="3"><center><a href="/SolarC"><img style="width:90px;"src="/img/icons/solc.png"></a><br><span id="wogs">Use our Calculator to find your savings on switching to Solar</span></center></td></tr></tbody></table>';
+    document.getElementById('p_content').innerHTML = '<center><span id="quote"><center>Let\'s make the world a better place.</center></span></center>';
+     document.getElementById("home_s").style.backgroundImage="url(/img/c.jpg)";
        document.getElementById('c-butna').style.backgroundColor='white';
        document.getElementById('c-butnb').style.backgroundColor='black';
        document.getElementById('c-butnc').style.backgroundColor='white';
        document.getElementById('c-butnd').style.backgroundColor='white';
        document.getElementById('c-butne').style.backgroundColor='white';
+        document.getElementById('c-butna').style.display='inline-block';
+       document.getElementById('c-butnb').style.display='inline-block';
+       document.getElementById('c-butnc').style.display='inline-block';
+       document.getElementById('c-butnd').style.display='inline-block';
+       document.getElementById('c-butne').style.display='inline-block';
 }
 function clickc()
 {        
     clearInterval(interval);
+    document.getElementById("home_s").style.backgroundImage="url(/img/d.jpg)";
+    document.getElementById('p_content').innerHTML = '<center><span id="quote"><center>Our bright ideas come from the sun.</center></span></center>';
        document.getElementById('c-butna').style.backgroundColor='white';
        document.getElementById('c-butnb').style.backgroundColor='white';
        document.getElementById('c-butnc').style.backgroundColor='black';
        document.getElementById('c-butnd').style.backgroundColor='white';
        document.getElementById('c-butne').style.backgroundColor='white';
+        document.getElementById('c-butna').style.display='inline-block';
+       document.getElementById('c-butnb').style.display='inline-block';
+       document.getElementById('c-butnc').style.display='inline-block';
+       document.getElementById('c-butnd').style.display='inline-block';
+       document.getElementById('c-butne').style.display='inline-block';
 }
 function clickd()
 {        
     clearInterval(interval);
+    document.getElementById("home_s").style.backgroundImage="url(/img/e.jpg)";
+     document.getElementById('p_content').innerHTML ='<center><span id="quote"><center>When there’s a huge solar energy spill, it’s just called a ‘nice day’</center></span></center>';
        document.getElementById('c-butna').style.backgroundColor='white';
        document.getElementById('c-butnb').style.backgroundColor='white';
        document.getElementById('c-butnc').style.backgroundColor='white';
        document.getElementById('c-butnd').style.backgroundColor='black';
        document.getElementById('c-butne').style.backgroundColor='white';
+        document.getElementById('c-butna').style.display='inline-block';
+       document.getElementById('c-butnb').style.display='inline-block';
+       document.getElementById('c-butnc').style.display='inline-block';
+       document.getElementById('c-butnd').style.display='inline-block';
+       document.getElementById('c-butne').style.display='inline-block';
 }
 function clicke()
 {        
     clearInterval(interval);
+    document.getElementById("home_s").style.backgroundImage="url(/img/f.jpg)";
+     document.getElementById('p_content').innerHTML = '<center><span id="quote"><center>Solar energy, clean energy for a better tomorrow</center></span></center>';
        document.getElementById('c-butna').style.backgroundColor='white';
        document.getElementById('c-butnb').style.backgroundColor='white';
        document.getElementById('c-butnc').style.backgroundColor='white';
        document.getElementById('c-butnd').style.backgroundColor='white';
        document.getElementById('c-butne').style.backgroundColor='black';
+        document.getElementById('c-butna').style.display='inline-block';
+       document.getElementById('c-butnb').style.display='inline-block';
+       document.getElementById('c-butnc').style.display='inline-block';
+       document.getElementById('c-butnd').style.display='inline-block';
+       document.getElementById('c-butne').style.display='inline-block';
 }
 function changep()
-{
+{      
        if(counter==0){
-       document.getElementById('p_content').innerHTML = '<span id="projh">Our Projects</span>';
-        document.getElementById('c-butna').style.backgroundColor='black';
+        document.getElementById("home_s").style.backgroundImage="url(/img/a.jpg)";
+        document.getElementById('p_content').innerHTML = '<center><span id="quote"><center>Sun is simply a one big battery for us.</center></span></center>';
+       document.getElementById('c-butna').style.backgroundColor='black';
+         document.getElementById('c-butna').style.display='inline-block';
+       document.getElementById('c-butnb').style.display='inline-block';
+       document.getElementById('c-butnc').style.display='inline-block';
+       document.getElementById('c-butnd').style.display='inline-block';
+       document.getElementById('c-butne').style.display='inline-block';
       
        counter+=1;
    }
@@ -83,133 +130,72 @@ function changep()
       if(counter == 0)
       { 
         counter+=1;
-     document.getElementById('p_content').innerHTML = '<span id="projh">Our Projects</span>';
-       document.getElementById('c-butna').style.backgroundColor='black';
+        //here add the background image of slide 1
+        document.getElementById("home_s").style.backgroundImage="url(/img/a.jpg)";
+         document.getElementById('p_content').innerHTML = '<center><span id="quote"><center>Sun is simply a one big battery for us.</center></span></center>';
+     document.getElementById('c-butna').style.backgroundColor='black';
        document.getElementById('c-butne').style.backgroundColor='white';
+        document.getElementById('c-butna').style.display='inline-block';
+       document.getElementById('c-butnb').style.display='inline-block';
+       document.getElementById('c-butnc').style.display='inline-block';
+       document.getElementById('c-butnd').style.display='inline-block';
+       document.getElementById('c-butne').style.display='inline-block';
       }
         else if(counter == 1){
           counter+=1;
-        document.getElementById('p_content').innerHTML = '<span id="wgs" style="padding-bottom:20px;">Why go Solar?</span><table id="tab" style="width: 80%;" border="0" cellpadding="15" ><tbody><tr><td><center><img style="width:80px;"src="/img/icons/pe.png"><br><span id="wogs">Save the <span style="color:#5FAD56">Environment</span></span></center></td><td><center><img style="width:80px;"src="/img/icons/sm.png"><br><span id="wogs">Earn a great Return!</span></center></td><td><center><img style="width:80px;"src="/img/icons/shp.png"><br><span id="wogs">Guaranteed Performance</span></center></td></tr><tr><td><center><img style="width:80px;"src="/img/icons/emai.png"><br><span id="wogs">Easy Maintenance</span></center></td><td><center><img style="width:80px;"src="/img/icons/lb.png"><br><span id="wogs">Reduce your bills!</span></center></td><td><center><img style="width:80px;"src="/img/icons/sus.png"><br><span id="wogs">Commit to Sustainability</span></center></td></tr><tr><td colspan="3"><center><a href="/SolarC"><img style="width:90px;"src="/img/icons/solc.png"></a><br><span id="wogs">Use our Calculator to find your savings on switching to Solar</span></center></td></tr></tbody></table>';
-          document.getElementById('c-butna').style.backgroundColor='white';
+          //here add the background image of slide 2
+          document.getElementById("home_s").style.backgroundImage="url(/img/c.jpg)";
+           document.getElementById('p_content').innerHTML = '<center><span id="quote"><center>Let\'s make the world a better place.</center></span></center>';
+        document.getElementById('c-butna').style.backgroundColor='white';
           document.getElementById('c-butnb').style.backgroundColor='black';
+           document.getElementById('c-butna').style.display='inline-block';
+       document.getElementById('c-butnb').style.display='inline-block';
+       document.getElementById('c-butnc').style.display='inline-block';
+       document.getElementById('c-butnd').style.display='inline-block';
+       document.getElementById('c-butne').style.display='inline-block';
 
         }
          else if(counter == 2){
           counter+=1;
+          //here add the background image of slide 3
+          document.getElementById("home_s").style.backgroundImage="url(/img/d.jpg)";
+           document.getElementById('p_content').innerHTML = '<center><span id="quote"><center>Our bright ideas come from the sun.</center></span></center>';
             document.getElementById('c-butnb').style.backgroundColor='white';
             document.getElementById('c-butnc').style.backgroundColor='black';
+             document.getElementById('c-butna').style.display='inline-block';
+       document.getElementById('c-butnb').style.display='inline-block';
+       document.getElementById('c-butnc').style.display='inline-block';
+       document.getElementById('c-butnd').style.display='inline-block';
+       document.getElementById('c-butne').style.display='inline-block';
  
         }
          else if(counter == 3){
           counter+=1;
+          //here add the background image of slide 4
+          document.getElementById("home_s").style.backgroundImage="url(/img/e.jpg)";
+          document.getElementById('p_content').innerHTML = '<center><span id="quote"><center>When there’s a huge solar energy spill, it’s just called a ‘nice day’</center></span></center>';
             document.getElementById('c-butnc').style.backgroundColor='white';
             document.getElementById('c-butnd').style.backgroundColor='black';
+             document.getElementById('c-butna').style.display='inline-block';
+       document.getElementById('c-butnb').style.display='inline-block';
+       document.getElementById('c-butnc').style.display='inline-block';
+       document.getElementById('c-butnd').style.display='inline-block';
+       document.getElementById('c-butne').style.display='inline-block';
  
         }
          else if(counter == 4){
           counter+=1;
           counter%=5;
+          //here add the background image of slide 5
+          document.getElementById("home_s").style.backgroundImage="url(/img/f.jpg)";
+           document.getElementById('p_content').innerHTML = '<center><span id="quote"><center>Solar energy, clean energy for a better tomorrow</center></span></center>';
             document.getElementById('c-butnd').style.backgroundColor='white';
             document.getElementById('c-butne').style.backgroundColor='black';
+             document.getElementById('c-butna').style.display='inline-block';
+       document.getElementById('c-butnb').style.display='inline-block';
+       document.getElementById('c-butnc').style.display='inline-block';
+       document.getElementById('c-butnd').style.display='inline-block';
+       document.getElementById('c-butne').style.display='inline-block';
 }
 }, 10000);
 }
-function check()
-{
-var ch = String.fromCharCode(97 + counter);
-  if(ch == 'a')
-    clicka();
-  if(ch == 'b')
-    clickb();
-  if(ch == 'c')
-    clickc();
-  if(ch == 'd')
-    clickd();
-  if(ch == 'e')
-    clicke();          
-}
-function decreCounter(){
-clearInterval(interval);
-  if(hclick == 0)
-  {
-    hclick=-11;
-    counter-=2;
-  }
-  else{
-  counter=counter-1;
-}
-  if(counter<0)
-    counter=4;
-
-  check();
-}
-function increCounter(){
-  clearInterval(interval);
-  if(hclick == 0)
-  {
-    hclick=-11;
-  }
-  else{
-  counter=counter+1;
-}
-  if(counter>4)
-    counter%=5;
-
-  check()
-}
-function knowMore(){
-    
-    document.getElementById("serb").style.display="none";
-    document.getElementById("serc").style.display="none";
-    document.getElementById("serd").style.display="none";
-    document.getElementById("sera").style.display="none";
-    document.getElementById("p1").style.display="none";
-    document.getElementById("hidden").style.display="block";
-    
-  }
-function knowMore2(){
-    
-    document.getElementById("serb").style.display="none";
-    document.getElementById("serc").style.display="none";
-    document.getElementById("serd").style.display="none";
-    document.getElementById("sera").style.display="none";
-    document.getElementById("p1").style.display="none";
-    document.getElementById("hidden2").style.display="block";
-    
-  }
-function knowMore3(){
-    
-    document.getElementById("serb").style.display="none";
-    document.getElementById("serc").style.display="none";
-    document.getElementById("serd").style.display="none";
-    document.getElementById("sera").style.display="none";
-    document.getElementById("p1").style.display="none";
-    document.getElementById("hidden3").style.display="block";
-    
-  }
-function knowMore4(){
-    
-    document.getElementById("serb").style.display="none";
-    document.getElementById("serc").style.display="none";
-    document.getElementById("serd").style.display="none";
-    document.getElementById("sera").style.display="none";
-    document.getElementById("p1").style.display="none";
-    document.getElementById("hidden4").style.display="block";
-    
-  }
-function goBack(){
-    document.getElementById("sera").style.display="inline-block";
-    document.getElementById("serb").style.display="inline-block";
-    document.getElementById("serc").style.display="inline-block";
-    document.getElementById("serd").style.display="inline-block";
-    document.getElementById("p1").style.display="block";
-    document.getElementById("hidden").style.display="none";
-    document.getElementById("hidden2").style.display="none";
-    document.getElementById("hidden3").style.display="none";
-    document.getElementById("hidden4").style.display="none";
-}
-
-/*
-function displayInfo(){
-    document.getElementById("info1").style.display="block";
-}*/

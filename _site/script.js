@@ -11,26 +11,28 @@ var flag=0;
 function setResident()
 {
     flag=1;
-    document.getElementById("INPUT_37").style.backgroundColor="#5FAD56";
-    
-    document.getElementById("INPUT_39").style.backgroundColor="#fdfafa";
+    document.getElementById("INPUT_37").style.backgroundColor="#188b44";
+    document.getElementById("INPUT_37").style.border="1.5px black solid";
+    document.getElementById("INPUT_39").style.border="1.5px solid transparent";
+    document.getElementById("INPUT_41").style.border="1.5px solid transparent";    
+    document.getElementById("INPUT_39").style.backgroundColor="#0B9840";
     document.getElementById("INPUT_39").onmouseover = function() 
     {
-        this.style.backgroundColor = "#5FAD56";
+        this.style.backgroundColor = "#188b44";
     }
     document.getElementById("INPUT_39").onmouseout = function() 
     {
-        this.style.backgroundColor = "#fdfafa";
+        this.style.backgroundColor = "#0B9840";
     }
 
-    document.getElementById("INPUT_41").style.backgroundColor="#fdfafa";
+    document.getElementById("INPUT_41").style.backgroundColor="#0B9840";
     document.getElementById("INPUT_41").onmouseover = function() 
     {
-        this.style.backgroundColor = "#5FAD56";
+        this.style.backgroundColor = "#188b44";
     }
     document.getElementById("INPUT_41").onmouseout = function() 
     {
-        this.style.backgroundColor = "#fdfafa";
+        this.style.backgroundColor = "#0B9840";
     }
 
 
@@ -40,28 +42,30 @@ function setResident()
 function setNotResident()
 {
     flag=2;
-    document.getElementById("INPUT_39").style.backgroundColor="#5FAD56";
+    document.getElementById("INPUT_39").style.backgroundColor="#188b44";
+    document.getElementById("INPUT_39").style.border="1.5px black solid";
+     document.getElementById("INPUT_37").style.border="1.5px solid transparent";
+    document.getElementById("INPUT_41").style.border="1.5px solid transparent";
 
-
-    document.getElementById("INPUT_37").style.backgroundColor="#fdfafa";
+    document.getElementById("INPUT_37").style.backgroundColor="#0B9840";
     document.getElementById("INPUT_37").onmouseover = function() 
     {
-        this.style.backgroundColor = "#5FAD56";
+        this.style.backgroundColor = "#188b44";
     }
     document.getElementById("INPUT_37").onmouseout = function() 
     {
-        this.style.backgroundColor = "#fdfafa";
+        this.style.backgroundColor = "#0B9840";
     }
 
 
-    document.getElementById("INPUT_41").style.backgroundColor="#fdfafa";
+    document.getElementById("INPUT_41").style.backgroundColor="#0B9840";
     document.getElementById("INPUT_41").onmouseover = function() 
     {
-        this.style.backgroundColor = "#5FAD56";
+        this.style.backgroundColor = "#188b44";
     }
     document.getElementById("INPUT_41").onmouseout = function() 
     {
-        this.style.backgroundColor = "#fdfafa";
+        this.style.backgroundColor = "#0B9840";
     }
     document.getElementById("err_msg3").innerHTML="";
 
@@ -69,27 +73,30 @@ function setNotResident()
 function setNotResident1()
 {
     flag=3;
-    document.getElementById("INPUT_41").style.backgroundColor="#5FAD56";
+    document.getElementById("INPUT_41").style.backgroundColor="#188b44";
+    document.getElementById("INPUT_41").style.border="1.5px black solid";
+    document.getElementById("INPUT_37").style.border="1.5px solid transparent";
+    document.getElementById("INPUT_39").style.border="1.5px solid transparent";
 
 
-    document.getElementById("INPUT_39").style.backgroundColor="#fdfafa";
+    document.getElementById("INPUT_39").style.backgroundColor="#0B9840";
     document.getElementById("INPUT_39").onmouseover = function() 
     {
-        this.style.backgroundColor = "#5FAD56";
+        this.style.backgroundColor = "#188b44";
     }
     document.getElementById("INPUT_39").onmouseout = function() 
     {
-        this.style.backgroundColor = "#fdfafa";
+        this.style.backgroundColor = "#0B9840";
     }
 
-    document.getElementById("INPUT_37").style.backgroundColor="#fdfafa";
+    document.getElementById("INPUT_37").style.backgroundColor="#0B9840";
     document.getElementById("INPUT_37").onmouseover = function() 
     {
-        this.style.backgroundColor = "#5FAD56";
+        this.style.backgroundColor = "#188b44";
     }
     document.getElementById("INPUT_37").onmouseout = function() 
     {
-        this.style.backgroundColor = "#fdfafa";
+        this.style.backgroundColor = "#0B9840";
     }
     document.getElementById("err_msg3").innerHTML="";
 
