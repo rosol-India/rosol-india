@@ -24,6 +24,7 @@ td{
     -moz-animation: iappear 8s linear;
     -o-animation: iappear 8s linear;
     animation: iappear 8s linear ;
+   animation-delay: 2s;
    animation-iteration-count: infinite;
   }
 
@@ -243,6 +244,7 @@ td{
     -o-animation: iappear 8s linear;
     animation: iappear 8s linear;
    animation-iteration-count: infinite;
+    animation-delay: 0.3s;
   }
   .p_change
   {
