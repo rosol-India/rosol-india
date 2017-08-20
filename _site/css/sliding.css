@@ -1,7 +1,7 @@
     @import url('https://fonts.googleapis.com/css?family=Arvo');
     @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:900');
 td{
-  padding:15px;
+  padding: 35px;
 }
   @media screen and (min-width: 208px)
       {
@@ -12,15 +12,21 @@ td{
      #home_s
   {
       font-family: 'Arvo', serif;
-       background-image: url(/img/a.jpg);
        background-size: cover;
+       opacity: 0;
        max-width: 100%;
        height: 280px;
        max-height: 100%;
        margin: -17px 0px 5px 0px;
-    -webkit-transition: background-image 0.6s linear;
-       transition: background-image 0.6s linear;
+    /*-webkit-transition: background-image 0.6s linear;
+       transition: background-image 0.6s linear;*/
+    -webkit-animation: iappear 8s linear;
+    -moz-animation: iappear 8s linear;
+    -o-animation: iappear 8s linear;
+    animation: iappear 8s linear ;
+   animation-iteration-count: infinite;
   }
+
   #ibout {
     display: table;
     margin: 0 auto;
@@ -54,7 +60,7 @@ td{
   #p_content
   {
     font-size: 1.45vw;
-    color: #ffffe6;
+    color: #f9f9f9;
      text-shadow: 0px 2px #151414;
     height: 80%;
     width: 100%;
@@ -224,14 +230,18 @@ td{
      #home_s
   {
       font-family: 'Arvo', serif;
-       background-image: url(/img/a.jpg);
-              background-size: cover; 
+       background-size: cover; 
        max-width: 100%;
-       height: 620px;
+       height: 500px;
        max-height: 100%;
        margin: -17px 0px 5px 0px;
-    -webkit-transition: background-image 0.6s linear;
-       transition: background-image 0.6s linear;
+    /*-webkit-transition: background-image 0.6s linear;
+       transition: background-image 0.6s linear;*/
+    -webkit-animation: iappear 8s linear;
+    -moz-animation: iappear 8s linear;
+    -o-animation: iappear 8s linear;
+    animation: iappear 8s linear;
+   animation-iteration-count: infinite;
   }
   .p_change
   {
@@ -241,13 +251,22 @@ td{
   }
   #p_content
   {
-    color: #ffffe6;
+    color: #f9f9f9;
     font-size: 1.85vw;
     text-shadow: 0px 2px #151414;
     height: 80%;
     width: 98%;
     float: right;
     margin: 1% 1% 1% 1%;
+    -webkit-animation: ifade 2s ease-in-out forwards;
+    -webkit-animation-delay: 1.2s;
+    -moz-animation: ifade 2s ease-in-out forwards;
+    -moz-animation-delay: 1.2s;
+    -o-animation: ifade 2s ease-in-out forwards;
+    -o-animation-delay: 1.2s;
+    animation: ifade 2s ease-in-out forwards;
+    animation-delay: 1.2s;
+    opacity: 0;
   }
 #c-butna{
     width:20px;
@@ -312,7 +331,7 @@ td{
 display:table;
 margin:0 auto;
 font-size: 4.2vw;
-margin-top: 100px;
+margin-top: 25px;
 }
 
 #wgs
@@ -346,13 +365,14 @@ margin-top: 100px;
 
 
 #hsun{
-color:#ffd800;
-text-shadow: 0px 0px 0px #FFFF6F;
+    color: #fff900;
+    text-shadow: 0 0 7px #fff900, 0 0 50px #ff6c00;
 }
 #hservices
 {
   border: 1.5px dashed black;
   text-align: center;
+  background-color: whitesmoke;
   margin: 2px;
 }
 #wros
@@ -360,19 +380,22 @@ text-shadow: 0px 0px 0px #FFFF6F;
   border: 1.5px dashed black;
   text-align: center;
   margin: 2px;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
+  background-color: whitesmoke;
 }
 #wrosol
 {
   border: 1.5px dashed black;
   text-align: center;
-  margin: 2%;
+  margin: 2px;
   padding-bottom: 60px;
+  background-color: whitesmoke;
 }
 #mros
 {
   border: 1.5px dashed black;
   text-align: center;
+  background-color: whitesmoke;
   margin: 2px;
 }
   #sera
@@ -382,11 +405,15 @@ text-shadow: 0px 0px 0px #FFFF6F;
     max-width: 300px;
     text-align: left;
     padding: 40px;
-    background-color: #fdf6f6;
+    background-color: rgba(243, 232, 59, 0.42);
     border-radius: 3px;
     margin: 1%;
     /*margin-right: 3%;*/
     vertical-align: top;
+}
+#sera:hover
+{
+    background-color: rgba(243, 232, 59, 0.55);
 }
   #serb
 {
@@ -394,10 +421,14 @@ text-shadow: 0px 0px 0px #FFFF6F;
   max-width: 300px;
   text-align: left;
   padding: 40px;
-  background-color: #fdf6f6;
+  background-color: rgba(67, 197, 67, 0.58);
   border-radius: 3px;
   margin: 1%;
   vertical-align: top;
+}
+#serb:hover
+{
+  background-color: rgba(67, 197, 67, 0.71);
 }
 #serc
 {
@@ -405,11 +436,15 @@ text-shadow: 0px 0px 0px #FFFF6F;
     max-width: 300px;
     text-align: left;
     padding: 40px;
-    background-color: #fdf6f6;
+    background-color: rgba(5, 121, 206, 0.61);
     border-radius: 3px;
     margin: 1%;
     /*margin-left: 3%;*/
     vertical-align: top;
+}
+#serc:hover
+{
+    background-color: rgba(5, 121, 206, 0.74);
 }
 #serd
 {
@@ -417,11 +452,15 @@ text-shadow: 0px 0px 0px #FFFF6F;
     max-width: 300px;
     text-align: left;
     padding: 40px;
-    background-color: #fdf6f6;
+    background-color: rgba(249, 101, 101, 0.51);
     border-radius: 3px;
     margin: 1%;
     /*margin-right: 3%;*/
     vertical-align: top;
+}
+#serd:hover
+{
+    background-color: rgba(249, 101, 101, 0.64);
 }
 #sere
 {
@@ -429,10 +468,14 @@ text-shadow: 0px 0px 0px #FFFF6F;
   max-width: 300px;
   text-align: left;
   padding: 40px;
-  background-color: #fdf6f6;
+  background-color: rgba(55, 47, 150, 0.4);
   border-radius: 3px;
   margin: 1%;
   vertical-align: top;
+}
+#sere:hover
+{
+  background-color: rgba(55, 47, 150, 0.53);
 }
 #serf
 {
@@ -440,19 +483,22 @@ text-shadow: 0px 0px 0px #FFFF6F;
     max-width: 300px;
     text-align: left;
     padding: 40px;
-    background-color: #fdf6f6;
+    background-color: rgba(243, 146, 59, 0.53);
     border-radius: 3px;
     margin: 1%;
     /*margin-left: 3%;*/
     vertical-align: top;
 }
+#serf:hover
+{
+    background-color: rgba(243, 146, 59, 0.66);
+}
 #sera1
 {
     display: inline-block;
-    max-width: 220px;
+    max-width: 320px;
     text-align: left;
     padding: 1%;
-    background-color: #fdf6f6;
     border-radius: 3px;
     margin: 10px;
     vertical-align: top;
@@ -460,10 +506,9 @@ text-shadow: 0px 0px 0px #FFFF6F;
 #serb1
 {
     display: inline-block;
-    max-width: 220px;
+    max-width: 320px;
     text-align: left;
     padding: 1%;
-    background-color: #fdf6f6;
     border-radius: 3px;
     margin: 10px;
     vertical-align: top;
@@ -471,10 +516,9 @@ text-shadow: 0px 0px 0px #FFFF6F;
 #serc1
 {
     display: inline-block;
-    max-width: 220px;
+    max-width: 320px;
     text-align: left;
     padding: 1%;
-    background-color: #fdf6f6;
     border-radius: 3px;
     margin: 10px;
     vertical-align: top;
@@ -482,10 +526,9 @@ text-shadow: 0px 0px 0px #FFFF6F;
 #serd1
 {
     display: inline-block;
-    max-width: 220px;
+    max-width: 320px;
     text-align: left;
     padding: 1%;
-    background-color: #fdf6f6;
     border-radius: 3px;
     margin: 10px;
     vertical-align: top;
@@ -494,24 +537,27 @@ text-shadow: 0px 0px 0px #FFFF6F;
 {
   display: inline-block;
   text-align: left;
+  background-image:url(/img/team/varun.jpg);
+  background-size:cover;
   padding: 30px;
-background-color: #f5aa93;
   vertical-align: top;
 }
 #memb
 {
   display: inline-block;
   text-align: left;
+  background-image:url(/img/team/Lakhan2.jpeg);
+  background-size:cover;
   padding: 30px;
-background-color: #f5aa93;
   vertical-align: top;
 }
 #memc
 {
   display: inline-block;
   text-align: left;
+  background-image:url(/img/team/chirag.jpg);
+  background-size:cover;
   padding: 30px;
-background-color: #f5aa93;
   vertical-align: top;
 }
 #memd
@@ -519,7 +565,8 @@ background-color: #f5aa93;
   display: inline-block;
   text-align: left;
   padding: 30px;
-background-color: #f5aa93;
+ background-image:url(/img/team/arun.jpeg);
+  background-size:cover;
   vertical-align: top;
 }
   #sera,#serb,#serc,#serd,#sere,#serf
@@ -536,6 +583,7 @@ background-color: #f5aa93;
           margin-left: 5px;
           margin-bottom: 5px;
           margin-right: 5px;
+          background-color: whitesmoke;
           width: 200px;
           height: 200px;
         border-radius: 50%;
@@ -625,7 +673,7 @@ background-color: #f5aa93;
     font-size:3.2vw;
   }
   #sera,#serb,#serc,#serd,#sere,#serf{
-    max-width:99%;
+    max-width: 99%;
   }
 }
 
@@ -642,6 +690,27 @@ background-color: #f5aa93;
 }
 
 @keyframes ifade {
+  100% { opacity: 1; }
+}
+@-webkit-keyframes iappear {
+  35% { opacity: 1; }
+   80% { opacity: 1; }
+
+}
+
+@-moz-keyframes iappeaar {
+  35% { opacity: 1; }
+  95% { opacity: 1; }
+}
+
+@-o-keyframes iappear {
+  35% { opacity: 1;}  
+   95% { opacity: 1; }
+}
+
+
+@keyframes iappear {
+  25% { opacity: 1; }
   100% { opacity: 1; }
 }
 #whsolar
