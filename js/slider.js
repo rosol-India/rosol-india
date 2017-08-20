@@ -157,5 +157,5 @@ function changep()
           document.getElementById("home_s").style.backgroundImage="url(/img/f.jpg)";
            document.getElementById('p_content').innerHTML = '<center><span id="quote"><center>Solar energy, clean energy for a better tomorrow</center></span></center>';
 }
-}, 8000);
+}, 9000);
 }
