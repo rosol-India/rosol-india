@@ -17,6 +17,8 @@
 body {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
+  background-color: whitesmoke;
+  cursor: default;
 }
 h1,
 h2,
@@ -957,8 +959,8 @@ ul#portfolio-contant-active {
   list-style-image: url("/img/icons/tick2.png");
   letter-spacing: 1px;
   text-align: left;
-  width:50%;
-  margin: 0% 25% 2% 29%;
+  width:70%;
+  margin: 0% 0% 2% 20%;
   font-weight: bold;
 }
 #sublist{
