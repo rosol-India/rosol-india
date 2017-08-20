@@ -117,7 +117,7 @@ function changep()
 {      
        if(counter==0){
         document.getElementById("home_s").style.backgroundImage="url(/img/a.jpg)";
-        document.getElementById('p_content').innerHTML = '   <span id="chead">Rays of <span id="hsun"> Sun </span> Oriented Light</span><br><span id="ibout">A Solar Powered Products &amp  Solutions Company<span style="color:#5FAD56"> .</span></span>';
+        document.getElementById('p_content').innerHTML = '<span id="chead">Rays of <span id="hsun"> Sun </span> Oriented Light</span><br><span id="ibout">A Solar Powered Products &amp  Solutions Company<span style="color:#5FAD56"> .</span></span>';
       
        counter+=1;
    }
@@ -157,5 +157,5 @@ function changep()
           document.getElementById("home_s").style.backgroundImage="url(/img/f.jpg)";
            document.getElementById('p_content').innerHTML = '<center><span id="quote"><center>Solar energy, clean energy for a better tomorrow</center></span></center>';
 }
-}, 9000);
+}, 8000);
 }
