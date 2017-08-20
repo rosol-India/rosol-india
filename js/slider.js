@@ -1,6 +1,9 @@
 var counter = 0;
 var interval;
-window.onload = function() {changep()
+
+window.onload = function() {
+document.getElementById("home_s").style.cursor = 'default';
+  changep()
 }
 function changep()
 {      
