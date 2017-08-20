@@ -15,6 +15,7 @@ td{
        background-size: cover;
        max-width: 100%;
        height: 280px;
+       cursor: progress;
        max-height: 100%;
        margin: -17px 0px 5px 0px;
     /*-webkit-transition: background-image 0.6s linear;
@@ -226,6 +227,7 @@ td{
        background-size: cover; 
        max-width: 100%;
        height: 500px;
+       cursor: progress;
        max-height: 100%;
        margin: -17px 0px 5px 0px;
     /*-webkit-transition: background-image 0.6s linear;
@@ -369,6 +371,29 @@ margin-top: 25px;
   margin: 2px;
   padding-bottom: 60px;
   background-color: whitesmoke;
+}
+#whyrosoltext{
+  width:68%;
+  padding-left:1%;
+  display: inline-block;
+}
+#whyrosolimages{
+  width:28%;
+  text-align: center;
+  vertical-align: top;
+  display: inline-block;
+  padding-right:2%; 
+}
+#imagecerti2,#imagecerti3{
+  height:150px;
+  width:150px;
+}
+#imagecerti3{
+  border-radius: 10px;
+}
+#imagecerti1{
+  width:180px;
+  height:150px;
 }
 #mros
 {
@@ -572,6 +597,20 @@ margin-top: 25px;
   font: 300 16px/1.6;
   color: #333;
 }
+@media screen and (max-width: 818px){
+  #whyrosoltext{
+    display: block;
+    width:95%;
+    margin:0% 2.5%;
+  }
+  #whyrosolimages{
+    display: block;
+    width:100%;
+  }
+  #imagecerti1,#imagecerti2,#imagecerti3{
+    display: inline-block;
+  }
+} 
 @media screen and (max-width: 600px) 
 {
   #sera,#serb,#serc,#serd,#sere,#serf,#mema,#memb,#memc,#memd,#sera1,#serb1,#serc1,#serd1
@@ -591,6 +630,7 @@ margin-top: 25px;
       width:70%;
     }
 }
+
 
 @media screen and (max-width: 488px) 
 {
@@ -644,20 +684,7 @@ margin-top: 25px;
     font-size:2.7vw;
   }
 }
-@media screen and (max-width: 818px){
-  #whyrosoltext{
-    display: block;
-    width:95%;
-    margin:0% 2.5%;
-  }
-  #whyrosolimages{
-    display: block;
-    width:100%;
-  }
-  #imagecerti1,#imagecerti2,#imagecerti3{
-    display: inline-block;
-  }
-} 
+
 @media screen and (max-width: 378px) 
 {
   #serHead{
@@ -725,28 +752,3 @@ margin-top: 25px;
     padding:4px;
   }
 }
-
-#whyrosoltext{
-  width:68%;
-  padding-left:1%;
-  display: inline-block;
-}
-#whyrosolimages{
-  width:28%;
-  text-align: center;
-  vertical-align: top;
-  display: inline-block;
-  padding-right:2%; 
-}
-#imagecerti2,#imagecerti3{
-  height:150px;
-  width:150px;
-}
-#imagecerti3{
-  border-radius: 10px;
-}
-#imagecerti1{
-  width:180px;
-  height:150px;
-}
-
