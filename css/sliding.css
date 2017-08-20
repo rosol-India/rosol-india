@@ -59,11 +59,6 @@ td{
     height: 80%;
     width: 100%;
     margin: 0;
-        -webkit-animation: idisap 8s linear;
-    -moz-animation: idisap 8s linear;
-    -o-animation: idisap 8s linear;
-    animation: idisap 8s linear;
-    animation-iteration-count:infinite;
       
   }
 #c-butna{
@@ -252,11 +247,6 @@ td{
     width: 98%;
     float: right;
     margin: 1% 1% 1% 1%;
-        -webkit-animation: idisap 8s linear;
-    -moz-animation: idisap 8s linear;
-    -o-animation: idisap 8s linear;
-    animation: idisap 8s linear;
-    animation-iteration-count:infinite;
   }
 #c-butna{
     width:20px;
@@ -704,7 +694,7 @@ margin-top: 25px;
   25% { opacity: 1;}  
    98% { opacity: 1; }
 }*/
-/*--------------------------------*/
+/*--------------------------------
 
 @-webkit-keyframes idisap {
   0%{opacity: 0;}
@@ -733,7 +723,7 @@ margin-top: 25px;
   94% { opacity: 1;} 
   100% { opacity: 0;}   
 }
-
+*/
 
 #whsolar
 {
