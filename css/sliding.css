@@ -725,12 +725,6 @@ margin-top: 25px;
     padding:4px;
   }
 }
-#preload-01 { background: url('/img/a.jpg') no-repeat -9999px -9999px; }
-#preload-02 { background: url('/img/b.jpg') no-repeat -9999px -9999px; }
-#preload-03 { background: url('/img/c.jpg') no-repeat -9999px -9999px; }
-#preload-04 { background: url('/img/d.jpg') no-repeat -9999px -9999px; }
-#preload-05 { background: url('/img/e.jpg') no-repeat -9999px -9999px; }
-#preload-06 { background: url('/img/f.jpg') no-repeat -9999px -9999px; }
 
 #whyrosoltext{
   width:68%;
@@ -755,4 +749,10 @@ margin-top: 25px;
   width:180px;
   height:150px;
 }
+#preload-01 { background: url('/img/a.jpg') no-repeat -9999px -9999px; }
+#preload-02 { background: url('/img/b.jpg') no-repeat -9999px -9999px; }
+#preload-03 { background: url('/img/c.jpg') no-repeat -9999px -9999px; }
+#preload-04 { background: url('/img/d.jpg') no-repeat -9999px -9999px; }
+#preload-05 { background: url('/img/e.jpg') no-repeat -9999px -9999px; }
+#preload-06 { background: url('/img/f.jpg') no-repeat -9999px -9999px; }
 
