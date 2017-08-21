@@ -351,22 +351,26 @@ margin-top: 25px;
 }
 #hservices
 {
-  border: 1.5px dashed black;
   text-align: center;
   background-color: whitesmoke;
   margin: 2px;
 }
 #wros
 {
-  border: 1.5px dashed black;
   text-align: center;
   margin: 2px;
   padding-bottom: 40px;
   background-color: whitesmoke;
 }
+#rosclients
+{
+  text-align: center;
+  margin: 2px;
+  padding-bottom: 10px;
+  background-color: whitesmoke;
+}
 #wrosol
 {
-  border: 1.5px dashed black;
   text-align: center;
   margin: 2px;
   padding-bottom: 60px;
@@ -397,7 +401,6 @@ margin-top: 25px;
 }
 #mros
 {
-  border: 1.5px dashed black;
   text-align: center;
   background-color: whitesmoke;
   margin: 2px;
@@ -647,7 +650,8 @@ margin-top: 25px;
       width:100%;
     }
   #tab{
-    margin-left: 8%;
+       margin-left: auto;
+    margin-right: auto;
   }
 }
 
