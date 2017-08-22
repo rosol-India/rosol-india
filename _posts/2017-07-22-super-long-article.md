@@ -1,8 +1,6 @@
 ---
 layout: post
-title: "ROSOL ENERGY the new solar Company"
-title: >-
-Rosol Energy has changed the technology and methodology in solar energy sector by introducing new methodology with technology and automation. 
+title: "ROSOL ENERGY PVT LTD"
 published: true
 ---
 
